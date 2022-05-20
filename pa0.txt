@@ -1,0 +1,17 @@
+Topic: Trang web chợ bán sách.
+
+Tại sao: Chọn đề tài sách bởi vì sách hữu ích, là nguồn tri thức của nhân loại và nhóm chúng em ai cũng yêu thích đọc sách nên nhóm chúng em muốn làm chủ đề để phổ biến sách tới mọi người.
+Đối tượng nhắm tới: Tới mọi thế hệ ai có nhu cầu mua hoặc bán sách
+Môi trường: Web
+tính năng
+- đăng nhập
+- đăng kýs
+- tìm kiếm sách
+- lọc sách
+- cập nhập sách
+- xóa sách
+- Thêm sách
+- mô tả sách
+- cho người đánh giá bình luận
+- thêm vào giỏ hàng
+- Thanh toán
