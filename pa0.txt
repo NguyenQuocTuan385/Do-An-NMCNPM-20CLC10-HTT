@@ -1,4 +1,4 @@
-Topic: Chợ bán sách.
+Topic: ZoneBook Chợ Bán Sách.
 
 Tại sao: Chọn đề tài sách bởi vì sách hữu ích, là nguồn tri thức của nhân loại và nhóm chúng em đa số ai cũng yêu thích đọc sách nên nhóm chúng em muốn làm chủ đề này để phổ biến sách tới mọi người.
 
@@ -7,15 +7,15 @@ Tại sao: Chọn đề tài sách bởi vì sách hữu ích, là nguồn tri t
 Môi trường: Web
 
 Tính năng:
-- Đăng nhập - Cho phép người dùng đăng nhập để mua món hàng mình yêu thích
-- Đăng ký - Trước khi đăng nhập đương nhiên sẽ cần đăng ký tài khoản
+- Đăng nhập - Cho phép người dùng đăng nhập để mua món hàng mình yêu thích.
+- Đăng ký - Trước khi đăng nhập đương nhiên sẽ cần đăng ký tài khoản.
 - Tìm kiếm sách - Tìm kiếm tên sách trong chợ
-- Lọc sách - lọc danh mục sách theo yêu cầu người dùng ví dụ lọc theo thể loại (kinh dị, tình cảm,...) hoặc lọc theo giá
-- Cập nhập sách - Cập nhật thông tin sách như mô tả sách hoặc tình trạng sách có còn trong kho hay không
-- xóa sách - Xóa 1 sách khỏi chợ
-- Thêm sách - Thêm 1 sách vào chợ
-- Mô tả sách - Hiện ra chi tiết về thông tin cuốn sách mà người dùng muốn xem
-- Đánh giá bình luận - Cho phép người dùng để lại đánh giá về sách 
-- Thêm vào giỏ hàng - Cho phép người dùng thêm sách muốn mua vào giỏ hàng  
-- Thanh toán - Thanh toán cho người dùng khi người dùng đã thêm hết sách cần mua vào giỏ hàng
+- Lọc sách - lọc danh mục sách theo yêu cầu người dùng ví dụ lọc theo thể loại (kinh dị, tình cảm,...) hoặc lọc theo giá.
+- Cập nhập sách - Cập nhật thông tin sách như mô tả sách hoặc tình trạng sách có còn trong kho hay không.
+- Xóa sách - Xóa 1 sách khỏi chợ.
+- Thêm sách - Thêm 1 sách vào chợ.
+- Mô tả sách - Hiện ra chi tiết về thông tin cuốn sách mà người dùng muốn xem.
+- Thêm vào giỏ hàng - Cho phép người dùng thêm sách muốn mua vào giỏ hàng.
+- Thanh toán - Thanh toán cho người dùng khi người dùng đã thêm hết sách cần mua vào giỏ hàng.
+- Quản lý User - Quản lý danh sách tài khoản đã đăng ký ở ZoneBook
 - Thống kê món hàng đã được bán - Thống kê các món hàng đã được bán theo quý,tháng,năm. 
