@@ -43,7 +43,8 @@ const productSchema = new mongoose.Schema({
                 'Tâm lý - Kỹ năng sống',
                 'Sách thiếu nhi',
                 'Tiểu sử - Hồi ký',
-                'Giáo Khoa - Sách tham khảo'
+                'Giáo Khoa - Sách tham khảo',
+                'Sách học ngoại ngữ'
             ],
             message: 'Please select correct category for product'
         }
