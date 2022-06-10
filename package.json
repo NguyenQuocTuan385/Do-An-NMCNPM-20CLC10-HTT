@@ -1,0 +1,30 @@
+{
+  "name": "do-an-nmcnpm-20clc10-htt",
+  "version": "1.0.0",
+  "description": "Web ZoneBook Book Market",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT & nodemon backend/server",
+    "prod": "SET NODE_ENV=PRODUCTION & nodemon backend/server",
+    "seeder": "node backend/utils/seeder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NguyenQuocTuan385/Do-An-NMCNPM-20CLC10-HTT.git"
+  },
+  "author": "Group04",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NguyenQuocTuan385/Do-An-NMCNPM-20CLC10-HTT/issues"
+  },
+  "homepage": "https://github.com/NguyenQuocTuan385/Do-An-NMCNPM-20CLC10-HTT#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
