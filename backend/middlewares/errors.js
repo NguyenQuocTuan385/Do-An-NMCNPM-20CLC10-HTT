@@ -13,7 +13,24 @@ module.exports = (err, req, res, next) => {
     }
     if (process.env.NODE_ENV === 'PRODUCTION') {
         let error = { ...err }
+
         error.message = err.message
+
+        //Wrong Mongoose Object ID Error
+        //Thong bao loi thay vi la CastError thi thong bao lai la Nhap sai dang ID 
+        //VD: ID chi nhap toan chu
+        if (err.name === 'CastError') {
+            const message = `Resource not found. Invalid ${err.path}`
+            error = new ErrorHandler(message, 400)
+        }
+
+        //Cap nhat neu bi Product validation faile thi khong xuat ra thong bao do
+        //Handling Mongoose Validation Error
+        if (err.name === 'ValidationError') {
+            const message = Object.values(err.errors).map(value => value.message)
+            error = new ErrorHandler(message, 400)
+        }
+
         res.status(err.statusCode).json({
             success: false,
             message: error.message || 'Internal Server Error'
