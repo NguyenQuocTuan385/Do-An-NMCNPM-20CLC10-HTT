@@ -39,9 +39,9 @@ const productSchema = new mongoose.Schema({
         enum: {
             values: [
                 'Văn học',
-                'Kinh tế',
+                'Kinh Tế',
                 'Tâm lý - Kỹ năng sống',
-                'Sách thiếu nhi',
+                'Truyện Thiếu Nhi',
                 'Tiểu sử - Hồi ký',
                 'Giáo Khoa - Sách tham khảo',
                 'Sách học ngoại ngữ'
