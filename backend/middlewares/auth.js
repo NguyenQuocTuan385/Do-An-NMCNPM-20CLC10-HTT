@@ -7,11 +7,11 @@ const catchAsyncErrors = require("./catchAsyncErrors");
 exports.isAuthenticated = catchAsyncErrors(async (req, res, next) => {
     const { token } = req.cookies
 
-    if (!token) {
+    if (token === "j:null") {
         return next(new ErrorHandler('Login first to access this resource', 401))
     }
 
-    const decoded = jwt.verify(token, process.env.JWT_SECRET)
+    const decoded = jwt.verify(token, "SDJFOW850FJSLDFJ4095809DFJG045FG")
     req.user = await User.findById(decoded.id)
 
     next()
