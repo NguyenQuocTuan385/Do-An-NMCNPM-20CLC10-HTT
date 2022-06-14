@@ -21,7 +21,7 @@ const server = app.listen(process.env.PORT || 4000, () => {
 // Handle Unhandled Promise rejections
 //Xu Ly khi ket noi toi MongoDB bi yeu
 process.on('unhandledRejection', err => {
-    console.log(`ERROR: ${err.message}`)
+    console.log(`ERROR: ${err.stack}`)
     console.log('Shutting down the server due to Unhandled Promise rejection')
     server.close(() => {
         process.exit(1)
