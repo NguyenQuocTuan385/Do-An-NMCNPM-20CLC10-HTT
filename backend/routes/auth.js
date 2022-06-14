@@ -10,7 +10,9 @@ const { registerUser,
     updatePassword,
     updateProfile,
     allUsers,
-    getUserDetails} 
+    getUserDetails,
+    updateUser,
+    deleteUser} 
     = require('../controllers/authController');
 
 
@@ -26,7 +28,10 @@ router.route('/me').get(isAuthenticated, getUserProfile)
 router.route('/password/update').put(isAuthenticated, updatePassword)
 router.route('/me/update').put(isAuthenticated, updateProfile)
 router.route('/admin/users').get(isAuthenticated,authorizeRoles('admin'),allUsers)
-router.route('/admin/user/:id').get(isAuthenticated,authorizeRoles('admin'),getUserDetails)
+router.route('/admin/user/:id')
+            .get(isAuthenticated,authorizeRoles('admin'),getUserDetails)
+            .put(isAuthenticated,authorizeRoles('admin'),getUserDetails,updateUser)
+            .delete(isAuthenticated,authorizeRoles('admin'),getUserDetails,deleteUser)
 
 
 module.exports = router;
