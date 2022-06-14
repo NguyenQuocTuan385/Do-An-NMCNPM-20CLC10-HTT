@@ -7,7 +7,8 @@ const { registerUser,
     forgotPassword,
     resetPassword,
     getUserProfile,
-    updatePassword} 
+    updatePassword,
+    updateProfile} 
     = require('../controllers/authController');
 
 
@@ -21,4 +22,8 @@ router.route('/password/forgot').post(forgotPassword)
 router.route('/password/reset/:token').put(resetPassword)
 router.route('/me').get(isAuthenticated, getUserProfile)
 router.route('/password/update').put(isAuthenticated, updatePassword)
+router.route('/me/update').put(isAuthenticated, updateProfile)
+
+
+
 module.exports = router;
