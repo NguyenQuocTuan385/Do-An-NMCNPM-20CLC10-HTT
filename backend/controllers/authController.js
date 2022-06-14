@@ -229,7 +229,7 @@ exports.updateUser = catchAsyncErrors(async(req,res,next) => {
     })
 
 
-    res.status(2000).json({
+    res.status(200).json({
         success: true
     })
 })
