@@ -5,11 +5,13 @@ const { getProducts,
     newProduct,
     getSingleProduct,
     updateProduct,
-    deleteProduct } = require('../controllers/productController')
+    deleteProduct,
+    createProductReview } = require('../controllers/productController')
 
 router.route('/products').get(getProducts)
 router.route('/admin/product/new').post(isAuthenticated, authorizeRoles('admin'), newProduct)
 router.route('/product/:id').get(getSingleProduct)
 router.route('/admin/product/:id').put(isAuthenticated, authorizeRoles('admin'), updateProduct)
     .delete(isAuthenticated, authorizeRoles('admin'), deleteProduct)
+router.route('/review').put(isAuthenticated, createProductReview)
 module.exports = router
