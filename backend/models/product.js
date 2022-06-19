@@ -39,11 +39,12 @@ const productSchema = new mongoose.Schema({
         enum: {
             values: [
                 'Văn học',
-                'Kinh tế',
+                'Kinh Tế',
                 'Tâm lý - Kỹ năng sống',
-                'Sách thiếu nhi',
+                'Truyện Thiếu Nhi',
                 'Tiểu sử - Hồi ký',
-                'Giáo Khoa - Sách tham khảo'
+                'Giáo Khoa - Sách tham khảo',
+                'Sách học ngoại ngữ'
             ],
             message: 'Please select correct category for product'
         }
@@ -68,6 +69,11 @@ const productSchema = new mongoose.Schema({
     },
     reviews: [
         {
+            user: {
+                type: mongoose.Schema.ObjectId,
+                ref: 'User',
+                required: true
+            },
             name: {
                 type: String,
                 required: true
@@ -77,11 +83,16 @@ const productSchema = new mongoose.Schema({
                 required: true
             },
             comment: {
-                type: Number,
+                type: String,
                 required: true
             }
         }
     ],
+    user: {
+        type: mongoose.Schema.ObjectId,
+        ref: 'User',
+        required: true
+    },
     createdAt: {
         type: Date,
         default: Date.now

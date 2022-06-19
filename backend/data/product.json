@@ -88,5 +88,545 @@
         "category": "Văn học",
         "stock": 123,
         "reviews": []
+    },
+    {
+        "name": "Dạy Con Làm Giàu - Tập 1 (Tái Bản 2018)",
+        "price": 55250,
+        "images": [
+            {
+                "public_id": "products/30f6dxc5pfysqrs",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_180164_1_43_1_57_1_4_1_2_1_210_1_29_1_98_1_25_1_21_1_5_1_3_1_18_1_18_1_45_1_26_1_32_1_14_1_2354.jpg"
+            }
+        ],
+        "description": "Người giàu không làm việc vì tiền. Họ bắt tiền làm việc cho họ. Chấp nhận thất bại là bước đầu của thành công? Quyền lực của sự lựa chọn! Những bài học không có trong nhà trường. Hãy bắt đầu từ hôm nay “để không có tiền vẫn tạo ra tiền”….",
+        "numOfReview": 0,
+        "author": "Robert T Kiyosaki",
+        "rating": 4.9,
+        "publishingCompany": "NXB Trẻ",
+        "category": "Kinh Tế",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Dạy Con Làm Giàu 02 - Sử Dụng Đồng Vốn (Tái Bản 2020)",
+        "price": 84000,
+        "images": [
+            {
+                "public_id": "products/tscepmxgmbsw9qi",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_29722.jpg"
+            }
+        ],
+        "description": "Bạn đang đi học? Bạn vừa ra trường và chưa có việc làm? Bạn đang làm việc với mức lương ổn định? Bạn đang làm cho một công ty tư nhân tư nhân? Bạn là một chủ doanh nghiệp nhỏ? Bạn muốn được thoải mái về tiền bạc ? “Dạy con làm giàu tập 2” sẽ là bước khởi đầu cho bạn - những quan điểm mới về đồng vốn và cách sử dụng tiền hiệu quả.",
+        "numOfReview": 0,
+        "author": "Robert T Kiyosaki, Sharon, L Lechter",
+        "rating": 0,
+        "publishingCompany": "NXB Trẻ",
+        "category": "Kinh Tế",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Người Bán Hàng Vĩ Đại Nhất Thế Giới",
+        "price": 118400,
+        "images": [
+            {
+                "public_id": "products/ya4vqhkr4zufr1q",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_47973.jpg"
+            }
+        ],
+        "description": "Ấn bản Người bán hàng vĩ đại nhất thế giới lần này được tổng hợp và chỉnh sửa nội dung từ bộ sách hai tập Người bán hàng vĩ đại nhất thế giới mà First News - Trí Việt đã xuất bản trước đây.",
+        "numOfReview": 1,
+        "author": "Og Mandino",
+        "rating": 5,
+        "publishingCompany": "NXB Tổng Hợp TPHCM",
+        "category": "Kinh Tế",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Bí Mật Tư Duy Triệu Phú (Tái Bản 2021)",
+        "price": 88560,
+        "images": [
+            {
+                "public_id": "products/i7vjnc0g2vgzsno",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_188995_1_1.jpg"
+            }
+        ],
+        "description": "T. Harv Eker là người sáng lập và là giám đốc Công ty Peak Potential Trainning, một trong những công ty đào tạo - nghiên cứu phát triển nhanh và mạnh nhất thế giới.",
+        "numOfReview": 0,
+        "author": "T Harv Eker",
+        "rating": 0,
+        "publishingCompany": "NXB Tổng Hợp TPHCM",
+        "category": "Kinh Tế",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Doanh Nghiệp Của Thế Kỷ 21 (Tái Bản 2019)",
+        "price": 72250,
+        "images": [
+            {
+                "public_id": "products/fsf1aub6pbpbz25",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_603.jpg"
+            }
+        ],
+        "description": "Một quyển sách khác của tác giả bộ sách nổi tiếng Dạy con làm giàu. Trong cuốn sách này, Robert T. Kiyosaki sẽ chỉ ra cho bạn đọc thấy lý do tại sao mình cần phải gây dựng doanh nghiệp riêng của mình và chính xác đó là doanh nghiệp gì. Nhưng đây không phải là việc thay đổi loại hình doanh nghiệp mình đang triển khai mà đó là việc thay đổi chính bản thân. Tác giả còn cho bạn đọc biết cách thức tìm kiếm những gì mình cần để phát triển doanh nghiệp hoàn hảo, nhưng để doanh nghiệp của mình phát triển thì mình cũng sẽ phải phát triển theo.",
+        "numOfReview": 4,
+        "author": "Robert T Kiyosaki, John Fleming, Kim Kiyosaki",
+        "rating": 4.5,
+        "publishingCompany": "NXB Trẻ",
+        "category": "Kinh Tế",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Hoàng Tử Bé (Tái Bản 2019)",
+        "price": 63750,
+        "images": [
+            {
+                "public_id": "products/55rygto47ua0tp5",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_187010.jpg"
+            }
+        ],
+        "description": "LẦN ĐẦU TIÊN CÓ BẢN QUYỀN CHÍNH THỨC TẠI VIỆT NAM\nHoàng tử bé được viết ở New York trong những ngày tác giả sống lưu vong và được xuất bản lần đầu tiên tại New York vào năm 1943, rồi đến năm 1946 mới được xuất bản tại Pháp. Không nghi ngờ gì, đây là tác phẩm nổi tiếng nhất, được đọc nhiều nhất và cũng được yêu mến nhất của Saint-Exupéry. Cuốn sách được bình chọn là tác phẩm hay nhất thế kỉ 20 ở Pháp, đồng thời cũng là cuốn sách Pháp được dịch và được đọc nhiều nhất trên thế giới. Với 250 ngôn ngữ dịch khác nhau kể cả phương ngữ cùng hơn 200 triệu bản in trên toàn thế giới, Hoàng tử bé được coi là một trong những tác phẩm bán chạy nhất của nhân loại.\nỞ Việt Nam, Hoàng tử bé được dịch và xuất bản khá sớm. Từ năm 1966 đã có đồng thời hai bản dịch: Hoàng tử bé của Bùi Giáng do An Tiêm xuất bản và Cậu hoàng con của Trần Thiện Đạo do Khai Trí xuất bản. Từ đó đến nay đã có thêm nhiều bản dịch Hoàng tử bé mới của các dịch giả khác nhau. Bản dịch Hoàng tử bé lần này, xuất bản nhân dịp kỷ niệm 70 năm Hoàng tử bé ra đời, cũng là ấn bản đầu tiên được Gallimard chính thức chuyển nhượng bản quyền tại Việt Nam, hy vọng sẽ góp phần làm phong phú thêm việc dịch và tiếp nhận tác phẩm quan trọng này với các thế hệ độc giả.\nTôi cứ sống cô độc như vậy, chẳng có một ai để chuyện trò thật sự, cho tới một lần gặp nạn ở sa mạc Sahara cách đây sáu năm. Có thứ gì đó bị vỡ trong động cơ máy bay. Và vì ở bên cạnh chẳng có thợ máy cũng như hành khách nào nên một mình tôi sẽ phải cố mà sửa cho bằng được vụ hỏng hóc nan giải này. Với tôi đó thật là một việc sống còn. Tôi chỉ có vừa đủ nước để uống trong tám ngày.\nThế là đêm đầu tiên tôi ngủ trên cát, cách mọi chốn có người ở cả nghìn dặm xa. Tôi cô đơn hơn cả một kẻ đắm tàu sống sót trên bè giữa đại dương. Thế nên các bạn cứ tưởng tượng tôi đã ngạc nhiên làm sao, khi ánh ngày vừa rạng, thì một giọng nói nhỏ nhẹ lạ lùng đã đánh thức tôi. Giọng ấy nói:\n“Ông làm ơn… vẽ cho tôi một con cừu!”\n- Trích \"Hoàng tử bé\"\nNhận định\n“Đây là một câu chuyện tự nó đã rất đáng yêu, ẩn giấu một triết lý quá đỗi nhẹ nhàng và thi vị.”\n- The New York Times",
+        "numOfReview": 27,
+        "author": "Antoine De Saint-Exupéry",
+        "rating": 5,
+        "publishingCompany": "NXB Hội Nhà Văn",
+        "category": "Truyện Thiếu Nhi",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Lớp Học Mật Ngữ - Tập 19",
+        "price": 40000,
+        "images": [
+            {
+                "public_id": "products/ayzmq4twktrayck",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/l/_/l_p-h_c-m_t-ng_-t_p-19.jpg"
+            }
+        ],
+        "description": "Lớp Học Mật Ngữ - Tập 19 - Tặng Kèm 12 Bookmark Lớp Học Mật Ngữ Siêu Xinh (Mẫu Ngẫu Nhiên)\n(lớp Hoàng Cung hoặc lớp Hoàng Đạo, đính kèm ngẫu nhiên khi mua sách)\n\"Gieo trồng\" niềm vui cùng Lớp Học Mật Ngữ tập 19, tặng kèm phụ kiện mới cực hấp dẫn!\nHHT - Khi đang “ná thở” với đống bài vở, hãy thư giãn một chút và “gieo trồng niềm vui” với cuốn truyện tranh mới keng Lớp Học Mật Ngữ tập 19 nhé!\nHạt giống bạn bè trong “Khu rừng kim cương”\nRút kinh nghiệm năm rồi các bạn bận không dự sinh nhật được, năm nay Xử Nữ phát thiệp mời sớm để lớp Hoàng Đạo kịp thu xếp. Nhưng thật ra, không có ai bận hết. Các bạn chỉ… trốn thôi! Vì Xử Nữ làm sinh nhật rất là khắt khe, khiến các bạn ngộp thở. Mà có câu “Sống trong bể ngọc kim cương không bằng sống giữa tình thương bạn bè”, Sư Tử quyết định rủ cả lớp đi chơi Khu Rừng Kim Cương, trò chơi đang hot ở công viên Ngân Hà, vừa mừng sinh nhật Xử Nữ, vừa giúp các bạn được thoải mái. Nhưng mừng đâu thấy, chỉ thấy Xử Nữ tức muốn xì khói... Mời bạn cùng đến với khu rừng kim cương và dự sinh nhật Xử Nữ ở tập 19 này nha!\nHạt giống may mắn ở “Siêu Thú Ngân Hà”\nSau khi tiết lộ toàn bộ thảm hoạ cho các bạn, Hội Giả Kim tan biến vì không còn sức lực. Hai lớp Hoàng Đạo và Hoàng Cung tiến hành mở cổng không gian để thu phục siêu thú. Nhưng các cổng này đều cần nạp đùi gà để dò siêu thú, mà cả hai lớp chỉ có 12 cái đùi gà - vô cùng hạn hẹp! Ma Kết quyết định các bạn sẽ phải “solo” với siêu thú. Một thân một mình đương đầu thử thách. Trong khi đó, Song Ngư ở nhà phát hiện siêu thú đã tràn xuống Ngân Hà... Trong tình huống vô cùng cấp bách, mọi người đã làm gì, đón xem, đón xem!",
+        "numOfReview": 0,
+        "author": "B R O group",
+        "rating": 0,
+        "publishingCompany": "Báo Sinh Viên VN - Hoa Học Trò",
+        "category": "Truyện Thiếu Nhi",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Tôi Vẽ - Phương Pháp Tự Học Vẽ Truyện Tranh",
+        "price": 87000,
+        "images": [
+            {
+                "public_id": "products/mhi0z3w9wsk95er",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936071672704.jpg"
+            }
+        ],
+        "description": "“Tôi vẽ với 300 trang sách bao gồm những kỹ năng cơ bản cần có của một họa sĩ truyện tranh, từ tạo hình nhân vật, thiết kế bối cảnh, biểu cảm, các kỹ thuật diễn họa cho đến luật phối cảnh. Đây là một cuốn cẩm nang tuyệt vời dành cho các bạn đang bắt đầu học vẽ truyện tranh. Những kiến thức này có thể không giúp các bạn vẽ đẹp ngay lập tức nhưng sẽ là nền tảng vững chắc giúp bạn hình thành các tiêu chuẩn chuyên nghiệp trong nghề và không mất thời gian tự mò mẫm. Phần minh họa cho các bài học cũng rất hấp dẫn và sáng tạo. Các tác giả đã sử dụng chính nhân vật và trang truyện của mình để làm rõ sự liên quan giữa lý thuyết và thực tế, tính ứng dụng rõ ràng của các kỹ thuật và quy trình sáng tác.\nTrên thị trường hiện tại không thiếu những quyển sách dạy vẽ truyện tranh được dịch và biên tập lại từ nhiều nguồn nhưng đa số là kiểu sách “cầm tay chỉ việc”, không thật sữ hữu ích với các bạn trẻ Việt Nam – những bạn không theo học chuyên ngành mỹ thuật, thiếu kiến thức nền tảng về hội họa… Ngược lại, trong quyển Tôi vẽ, mọi phần kiến thức từ lớn đến nhỏ đều được lý giải và phân tích khá kỹ kèm ảnh minh họa rõ ràng, giúp người xem hiểu được gốc rễ vấn đề đồng thời áp dụng áp dụng vào nhiều “ngữ cảnh” khác nhau trong lúc sáng tác. Hệ thống kiến thức trong sách cũng được sắp xếp hợp lý từ thấp đến cao, xen kẽ là những trang truyện và hình minh họa vui nhộn làm giảm áp lực cho phần lý thuyết hơi khô cứng như phần phối cảnh và anatony (giải phẫu)”\nPhan Vũ Linh\nGiảng viên Trường Đại học Mỹ thuật Tp. HCM\nSáng lập Sân Si Studio\nMục lục:\nChương 1: Hình khối\nChương 2: Chân dung\nChương 3: Cơ thể người\nChương 4: Trang phục\nChương 5: Phối cảnh\nChương 6: Phần mềm\nPhụ lục\nThông tin tác phẩm\nTôi vẽ - Phương pháp tự học vẽ truyện tranh\nTác giả:\nNguyễn Mỹ Anh (Butaemon)\nĐào Quang Huy\nLê Mạnh Cương (Kei Nhẫn Giả)\nNguyễn Ngọc Anh (Kite Nguyễn)\nNguyễn Minh Đức\nNguyễn Quốc Tùng (Tùng Kận)\nTrần Xuân Đức (Xiao Đức)\nĐặng Quang Dũng (Mèo Mốc)\nMai Ngọc Ánh (Hen Ai Mei)\nNguyễn Vũ Trung Kiên (Kenxfire)\nNguyễn Thu Thủy (KenB)\nHà Huy Hoàng (Splendid River)\nLê Mai Anh (Tuyệt Đỉnh Sinh Vật)\nTrần Tùng Dương\nĐặng Thành Tâm (Tidus F air)\nHiệu đính:\nPhan Vũ Linh (Giảng viên Trường Đại học Mỹ thuật TP. HCM)\nHoàng Anh Tuấn (Trưởng nhóm B.R.O)",
+        "numOfReview": 39,
+        "author": "Nhiều tác giả",
+        "rating": 4.8,
+        "publishingCompany": "Đông A",
+        "category": "Truyện Thiếu Nhi",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Hoàng Tử Bé (Tái Bản 2022)",
+        "price": 33250,
+        "images": [
+            {
+                "public_id": "products/xbmw0ai8248qv6n",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935244868999.jpg"
+            }
+        ],
+        "description": "Hoàng Tử Bé (Tái Bản 2022)\n“...Cậu hoàng tử chợp mắt ngủ, tôi bế em lên vòng tay tôi và lại lên đường. Lòng tôi xúc động. Tôi có cảm giác như trên Mặt Đất này không có gì mong manh hơn. Nhờ ánh sáng trăng, tôi nhìn thấy vầng trán nhợt nhạt ấy, đôi mắt nhắm nghiền các lẵng tóc run rẩy trước gió, và tôi nghĩ thầm: \"Cái mà ta nhìn thấy đây chỉ là cái vỏ. Cái quan trọng nhất thì không nhìn thấy được...\" ANTOINE DE SAINT-EXUPÉRY\n“Hoàng tử bé ngắn mà mãnh liệt... biểu hiện nỗi đau của nhà văn và tư tưởng triết học của ông về ý nghĩa của sự có mặt ở trên đời, nỗi khát khao không thể nào vơi được về lòng nhân ái, về sự cảm thông giữa những con người...” - Dịch giả NGUYỄN THÀNH LONG\nANTOINE DE SAINT-EXUPÉRY (1900 - 1944): Nhà văn, phi công Pháp nổi tiếng. Sinh tại Lyon, Pháp. Chiến tranh Thế giới thứ nhất ông theo mẹ sang Thụy Sĩ. Năm 1917, trở về Pháp, học trung học tại Paris, sau đó vào trường Mĩ thuật. Năm 1921, ông gia nhập không quân Pháp. Ngày 31.7.1944, ông lái máy bay với nhiệm vụ trinh sát và đã mất tích trên bầu trời Địa Trung Hải… Saint-Exupéry đã được vinh danh với nhiều giải thưởng văn học cao quý. Ông để lại những tác phẩm đặc sắc: Người phi công (L'Aviateur, 1926); Chuyến thư miền Nam (Courrier Sud, 1929); Bay đêm (Vol de Nuit , 1931); Quê xứ con người (Cõi người ta, Terre des Hommes, 1939); Phi công thời chiến (Pilote de Guerre, 1942); Thư gửi một con tin (Lettre à un Otage, 1943)…\nNGUYỄN THÀNH LONG (1925-1991) còn có các bút danh khác là Lưu Quỳnh, Phan Minh Thảo. Sinh tại huyện Duy Xuyên, tỉnh Quảng Nam, nguyên quán ở Quy Nhơn, Bình Định. Nguyễn Thành Long là nhà văn, cây bút chuyên viết về truyện ngắn và kí, đã cho xuất bản nhiều tác phẩm văn xuôi (khoảng 14 đầu sách). Truyện ngắn Lặng lẽ Sa Pa của ông được giới thiệu trong chương trình Ngữ Văn và được giảng dạy trong nhà trường. Ngoài Hoàng tử bé, ông còn là dịch giả của “Quê xứ con người” cũng của tác giả Saint-Exupéry.",
+        "numOfReview": 0,
+        "author": "Antoine De Saint-Exupéry",
+        "rating": 0,
+        "publishingCompany": "NXB Kim Đồng",
+        "category": "Truyện Thiếu Nhi",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Bé Tập Kể Chuyện - Ba Người Bạn",
+        "price": 8500,
+        "images": [
+            {
+                "public_id": "products/o72z9pgaleuxgxj",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/n/x/nxbtrestoryfull_25492016_124941.jpg"
+            }
+        ],
+        "description": "Bé Tập Kể Chuyện - Ba Người Bạn\nDựa theo chương trình kể chuyện của học sinh tiểu học, các câu chuyện được tóm lược lại, hình ảnh minh họa sinh động. Nội dung sách hướng các em tới những điều hay lẽ phải, giáo dục các em những đức tính cần thiết để trở thành người công dân tốt.",
+        "numOfReview": 0,
+        "author": "Nhật Tân",
+        "rating": 0,
+        "publishingCompany": "NXB Trẻ",
+        "category": "Truyện Thiếu Nhi",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Thiên Tài Bên Trái, Kẻ Điên Bên Phải (Tái Bản 2021)",
+        "price": 143200,
+        "images": [
+            {
+                "public_id": "products/prolpj4jjbw350r",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-thi_n-t_i-b_n-tr_i-k_-_i_n-b_n-ph_i_1.jpg"
+            }
+        ],
+        "description": "Thiên Tài Bên Trái, Kẻ Điên Bên Phải\nNẾU MỘT NGÀY ANH THẤY TÔI ĐIÊN, THỰC RA CHÍNH LÀ ANH ĐIÊN ĐẤY!\nHỡi những con người đang oằn mình trong cuộc sống, bạn biết gì về thế giới của mình? Là vô vàn thứ lý thuyết được các bậc vĩ nhân kiểm chứng, là luật lệ, là cả nghìn thứ sự thật bọc trong cái lốt hiển nhiên, hay những triết lý cứng nhắc của cuộc đời?\nLại đây, vượt qua thứ nhận thức tẻ nhạt bị đóng kín bằng con mắt trần gian, khai mở toàn bộ suy nghĩ, để dòng máu trong bạn sục sôi trước những điều kỳ vĩ, phá vỡ mọi quy tắc. Thế giới sẽ gọi bạn là kẻ điên, nhưng vậy thì có sao? Ranh giới duy nhất giữa kẻ điên và thiên tài chẳng qua là một sợi chỉ mỏng manh: Thiên tài chứng minh được thế giới của mình, còn kẻ điên chưa kịp làm điều đó. Chọn trở thành một kẻ điên để vẫy vùng giữa nhân gian loạn thế hay khóa hết chúng lại, sống mãi một cuộc đời bình thường khiến bạn cảm thấy hạnh phúc hơn?\nThiên tài bên trái, kẻ điên bên phải là cuốn sách dành cho những người điên rồ, những kẻ gây rối, những người chống đối, những mảnh ghép hình tròn trong những ô vuông không vừa vặn… những người nhìn mọi thứ khác biệt, không quan tâm đến quy tắc. Bạn có thể đồng ý, có thể phản đối, có thể vinh danh hay lăng mạ họ, nhưng điều duy nhất bạn không thể làm là phủ nhận sự tồn tại của họ. Đó là những người luôn tạo ra sự thay đổi trong khi hầu hết con người chỉ sống rập khuôn như một cái máy. Đa số đều nghĩ họ thật điên rồ nhưng nếu nhìn ở góc khác, ta lại thấy họ thiên tài. Bởi chỉ những người đủ điên nghĩ rằng họ có thể thay đổi thế giới mới là những người làm được điều đó.\nChào mừng đến với thế giới của những kẻ điên.",
+        "numOfReview": 0,
+        "author": "Cao Minh",
+        "rating": 0,
+        "publishingCompany": "NXB Thế Giới",
+        "category": "Tâm lý - Kỹ năng sống",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Tâm Lý Học - Phác Họa Chân Dung Kẻ Phạm Tội",
+        "price": 118900,
+        "images": [
+            {
+                "public_id": "products/omhxwnt7zyb6yq7",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/p/h/ph_c-h_a-ch_n-dung-k_-ph_m-t_i.jpg"
+            }
+        ],
+        "description": "Tâm Lý Học - Phác Họa Chân Dung Kẻ Phạm Tội\nTÂM LÝ HỌC TỘI PHẠM - PHÁC HỌA CHÂN DUNG KẺ PHẠM TỘI\nTội phạm, nhất là những vụ án mạng, luôn là một chủ đề thu hút sự quan tâm của công chúng, khơi gợi sự hiếu kỳ của bất cứ ai. Một khi đã bắt đầu theo dõi vụ án, hẳn bạn không thể không quan tâm tới kết cục, đặc biệt là cách thức và động cơ của kẻ sát nhân, từ những vụ án phạm vi hẹp cho đến những vụ án làm rúng động cả thế giới.\nLấy 36 vụ án CÓ THẬT kinh điển nhất trong hồ sơ tội phạm của FBI, “Tâm lý học tội phạm - phác họa chân dung kẻ phạm tội” mang đến cái nhìn toàn cảnh của các chuyên gia về chân dung tâm lý tội phạm. Trả lời cho câu hỏi: Làm thế nào phân tích được tâm lý và hành vi tội phạm, từ đó khôi phục sự thật thông qua các manh mối, từ hiện trường vụ án, thời gian, dấu tích,… để tìm ra kẻ sát nhân thực sự.\nĐằng sau máu và nước mắt là các câu chuyện rợn tóc gáy về tội ác, góc khuất xã hội và những màn đấu trí đầy gay cấn giữa điều tra viên và kẻ phạm tội. Trong số đó có những con quỷ ăn thịt người; những cô gái xinh đẹp nhưng xảo quyệt; và cả cách trả thù đầy man rợ của các nhà khoa học,… Một số đã sa vào lưới pháp luật ngay khi chúng vừa ra tay, nhưng cũng có những kẻ cứ vậy ngủ yên hơn hai mươi năm.\nBằng giọng văn sắc bén, “Tâm lý học tội phạm - phác họa chân dung kẻ phạm tội” hứa hẹn dẫn dắt người đọc đi qua các cung bậc cảm xúc từ tò mò, ngạc nhiên đến sợ hãi, hoang mang tận cùng. Chúng ta sẽ lần tìm về quá khứ để từng bước gỡ những nút thắt chưa được giải, khiến ta \"ngạt thở\" đọc tới tận trang cuối cùng.\nHy vọng cuốn sách sẽ giúp bạn có cái nhìn sâu sắc, rõ ràng hơn về bộ môn tâm lý học tội phạm và có thể rèn luyện thêm sự tư duy, nhạy bén.",
+        "numOfReview": 0,
+        "author": "Diệp Hồng Vũ",
+        "rating": 0,
+        "publishingCompany": "NXB Thanh Niên",
+        "category": "Tâm lý - Kỹ năng sống",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Rèn Luyện Tư Duy Phản Biện",
+        "price": 59000,
+        "images": [
+            {
+                "public_id": "products/1xqsuzuvlzrshh9",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_18448.jpg"
+            }
+        ],
+        "description": "Như bạn có thể thấy, chìa khóa để trở thành một người có tư duy phản biện tốt chính là sự tự nhận thức. Bạn cần phải đánh giá trung thực những điều trước đây bạn nghĩ là đúng, cũng như quá trình suy nghĩ đã dẫn bạn tới những kết luận đó. Nếu bạn không có những lý lẽ hợp lý, hoặc nếu suy nghĩ của bạn bị ảnh hưởng bởi những kinh nghiệm và cảm xúc, thì lúc đó hãy cân nhắc sử dụng tư duy phản biện! Bạn cần phải nhận ra được rằng con người, kể từ khi sinh ra, rất giỏi việc đưa ra những lý do lý giải cho những suy nghĩ khiếm khuyết của mình. Nếu bạn đang có những kết luận sai lệch này thì có một sự thật là những đức tin của bạn thường mâu thuẫn với nhau và đó thường là kết quả của thiên kiến xác nhận, nhưng nếu bạn biết điều này, thì bạn đã tiến gần hơn tới sự thật rồi!\nNhững người tư duy phản biện cũng biết rằng họ cần thu thập những ý tưởng và đức tin của mọi người. Tư duy phản biện không thể tự nhiên mà có.\nNhững người khác có thể đưa ra những góc nhìn khác mà bạn có thể chưa bao giờ nghĩ tới, và họ có thể chỉ ra những lỗ hổng trong logic của bạn mà bạn đã hoàn toàn bỏ qua. Bạn không cần phải hoàn toàn đồng ý với ý kiến của những người khác, bởi vì điều này cũng có thể dẫn tới những vấn đề liên quan đến thiên kiến, nhưng một cuộc thảo luận phản biện là một bài tập tư duy cực kỳ hiệu quả.\nViệc lắng nghe những ý kiến của người khác cũng có thể giúp bạn nhận ra rằng phạm vi tri thức của bạn không phải là vô hạn. Không ai có thể biết hết tất cả mọi thứ. Nhưng với việc chia sẻ và đánh giá phê bình kiến thức, chúng ta có thể mở rộng tâm trí. Nếu điều này khiến bạn cảm thấy không thoải mái, không sao cả. Trên thực tế, bước ra ngoài vùng an toàn là một điều quan trọng để mở rộng niềm tin và suy nghĩ của bạn. Tư duy phản biện không phải là chỉ biết vài thứ, và chắc chắn không phải việc xác nhận những điều bạn đã biết. Thay vào đó, nó xoay quanh việc tìm kiếm sự thật – và biến chúng trở thành thứ bạn biết.",
+        "numOfReview": 0,
+        "author": "Albert Rutherford",
+        "rating": 0,
+        "publishingCompany": "NXB Phụ Nữ Việt Nam",
+        "category": "Tâm lý - Kỹ năng sống",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Đọc Vị Bất Kỳ Ai (Tái Bản 2019)",
+        "price": 55300,
+        "images": [
+            {
+                "public_id": "products/26y3s4k0nehj7eo",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_12542.jpg"
+            }
+        ],
+        "description": "Bạn băn khoăn không biết người ngồi đối diện đang nghĩ gì? Họ có đang nói dối bạn không? Đối tác đang ngồi đối diện với bạn trên bàn đàm phán đang nghĩ gì và nói gì tiếp theo?\nĐỌC người khác là một trong những công cụ quan trọng, có giá trị nhất, giúp ích cho bạn trong mọi khía cạnh của cuộc sống. ĐỌC VỊ người khác để:\nHãy chiếm thế thượng phong trong việc chủ động nhận biết điều cần tìm kiếm - ở bất kỳ ai bằng cách “thâm nhập vào suy nghĩ” của người khác. ĐỌC VỊ BẤT KỲ AI là cẩm nang dạy bạn cách thâm nhập vào tâm trí của người khác để biết điều người ta đang nghĩ. Cuốn sách này sẽ không giúp bạn rút ra các kết luận chung về một ai đó dựa vào cảm tính hay sự võ đoán. Những nguyên tắc được chia sẻ trong cuốn sách này không đơn thuần là những lý thuyết hay mẹo vặt chỉ đúng trong một số trường hợp hoặc với những đối tượng nhất định. Các kết quả nghiên cứu trong cuốn sách này được đưa ra dựa trên phương pháp S.N.A.P - cách thức phân tích và tìm hiểu tính cách một cách bài bản trong phạm vi cho phép mà không làm mếch lòng đối tượng được phân tích. Phương pháp này dựa trên những phân tích về tâm lý, chứ không chỉ đơn thuần dựa trên ngôn ngữ cử chỉ, trực giác hay võ đoán.\nCuốn sách được chia làm hai phần và 15 chương:\nPhần 1: Bảy câu hỏi cơ bản: Học cách phát hiện ra điều người khác nghĩ hay cảm nhận một cách dễ dàng và nhanh chóng trong bất kỳ hoàn cảnh nào.\nPhần 2: Những kế hoạch chi tiết cho hoạt động trí óc - hiểu được quá trình ra quyết định. Vượt ra ngoài việc đọc các suy nghĩ và cảm giác đơn thuần: Hãy học cách người khác suy nghĩ để có thể nắm bắt bất kỳ ai, phán đoán hành xử và hiểu được họ còn hơn chính bản thân họ.\nTrích đoạn sách hay:\nMột giám đốc phụ trách bán hàng nghi ngờ một trong những nhân viên kinh doanh của mình đang biển thủ công quỹ. Nếu hỏi trực tiếp “Có phải cô đang lấy trộm đồ của công ty?” sẽ khiến người bị nghi ngờ phòng bị ngay lập tức, việc muốn tìm ra chân tướng sự việc càng trở nên khó khăn hơn. Nếu cô ta không làm việc đó, dĩ nhiên cô ta sẽ nói với người giám đốc mình không lấy trộm. Ngược lại, dù có lấy trộm đi chăng nữa, cô ta cũng sẽ nói dối mình không hề làm vậy. Thay vào việc hỏi trực diện, người giám đốc khôn ngoan nên nói một điều gì đó tưởng chừng vô hại, như “Jill, không biết cô có giúp được tôi việc này không. Có vẻ như dạo này có người trong phòng đang lấy đồ của công ty về nhà phục vụ cho tư lợi cá nhân. Cô có hướng giải quyết nào cho việc này không?” rồi bình tĩnh quan sát phản ứng của người nhân viên.\nNếu cô ta hỏi lại và có vẻ hứng thú với đề tài này, anh ta có thể tạm an tâm rằng cô ta không lấy trộm, còn nếu cô ta đột nhiên trở nên không thoải mái và tìm cách thay đổi đề tài thì rõ ràng cô ta có động cơ không trong sáng.\nNgười giám đốc khi đó sẽ nhận ra sự chuyển hướng đột ngột trong thái độ và hành vi của người nhân viên. Nếu cô gái đó hoàn toàn trong sạch, có lẽ cô ta sẽ đưa ra hướng giải quyết của mình và vui vẻ khi sếp hỏi ý kiến của mình. Ngược lại, cô ta sẽ có biểu hiện không thoải mái rõ ràng và có lẽ sẽ cố cam đoan với sếp rằng cô không đời nào làm việc như vậy. Không có lí do gì để cô ta phải thanh minh như vậy, trừ phi cô là người có cảm giác tội lỗi…",
+        "numOfReview": 34,
+        "author": "TS David J Lieberman",
+        "rating": 4.5,
+        "publishingCompany": "NXB Lao Động",
+        "category": "Tâm lý - Kỹ năng sống",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Thay Đổi Cuộc Sống Với Nhân Số Học",
+        "price": 148000,
+        "images": [
+            {
+                "public_id": "products/wt8t0incw6q40wo",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/t/d/tdcsvnsh.jpg"
+            }
+        ],
+        "description": "Thay Đổi Cuộc Sống Với Nhân Số Học\nCuốn sách Thay đổi cuộc sống với Nhân số học là tác phẩm được chị Lê Đỗ Quỳnh Hương phát triển từ tác phẩm gốc “The Complete Book of Numerology” của tiến sỹ David A. Phillips, khiến bộ môn Nhân số học khởi nguồn từ nhà toán học Pythagoras trở nên gần gũi, dễ hiểu hơn với độc giả Việt Nam.\nĐầu năm 2020, chuỗi chương trình “Thay đổi cuộc sống với Nhân số học” của biên tập viên, người dẫn chương trình quen thuộc tại Việt Nam Lê Đỗ Quỳnh Hương ra đời trên Youtube, với mục đích chia sẻ kiến thức, giúp mọi người tìm hiểu và phát triển, hoàn thiện bản thân, các mối quan hệ xã hội thông qua bộ môn Nhân số học. Chương trình đã nhận được sự yêu mến và phản hồi tích cực của rất nhiều khán giả và độc giả sau mỗi tập phát sóng.\nNhân số học là một môn nghiên cứu sự tương quan giữa những con số trong ngày sinh, cái tên với cuộc sống, vận mệnh, đường đời và tính cách của mỗi người. Bộ môn này đã được nhà toán học Pythagoras khởi xướng cách đây 2.600 năm và sau này được nhiều thế hệ học trò liên tục kế thừa, phát triển.\nCó thể xem, Nhân số học là một bộ môn Khám phá Bản thân (Self-Discovery), đọc vị về số. Bộ môn này giúp giải mã những tín hiệu mà cuộc sống đã gửi đến từng cá thể con người trong đời sống, tương tự như Nhân tướng học hay Nhân trắc học…Khi nghiêm túc nghiên cứu sự tồn tại và mối tương quan giữa các con số xuất hiện trong ngày, tháng, năm sinh của mỗi người qua Nhân số học, ta có thể hiểu được khá nhiều về bản thân mình, cũng như mối quan hệ của mình với người khác. Nếu hiểu những \"mật mã\" nằm ẩn dưới những con số, chúng ta có thể kiểm soát cuộc sống của mình, điều chỉnh chúng theo hướng ngày càng tốt đẹp hơn, phù hợp với năng lực, tính cách của mình hơn.\nTrong quyển sách “Thay đổi cuộc sống với Nhân số học”, Lê Đỗ Quỳnh Hương đã sử dụng khoảng 60% nền tảng tri thức từ quyển sách “The Complete Book of Numerology” (tạm dịch: Một quyển sách toàn diện về Nhân số học) của Tiến sĩ David A. Phillips (1934 – 1993) và 40% kết quả nghiên cứu của chị sau khi phân tích hơn 500 trường hợp cụ thể của những người Việt Nam sinh ra trong thế kỷ 21.\nCuốn sách “Thay đổi cuộc sống với Nhân số học”mang lại đầy đủ những kiến thức quan trọng nhất mà người hứng thú với Nhân số học cần tìm hiểu. Sách bao gồm các kiến thức về ba thể trong một con người, con số chủ đạo, biểu đồ ngày sinh, các mũi tên chỉ đặc điểm, con số ngày sinh, chu kỳ 9 năm, ba giai đoạn và bốn đỉnh cao của đời người cùng ý nghĩa, sức mạnh của cái tên của mỗi người. Các kiến thức này được diễn giải, phân tích và đi kèm các ví dụ cụ thể.\nVới mục đích đem Nhân số học trở nên gần gũi, dễ ứng dụng và mang lại những giá trị tích cực cho mỗi người trong đời sống, chị Lê Đỗ Quỳnh Hương mong rằng trong hành trình khám phá bản thân qua những con số, người đọc có thể hiểu về mình - hiểu được những thuận lợi và bất lợi mà mình gặp phải, từ đó tìm được động lực lớn để thay đổi cuộc sống. Giá trị của cuốn sách “Thay đổi cuộc sống với Nhân số học” nằm ở kiến thức tổng quan về Nhân số học và những lời khuyên sâu sắc để mỗi người có thể chuyển mình theo những hướng tích cực hơn như sống có lý tưởng, mở lòng, chăm chỉ, biết lắng nghe người khác, luyện tập thiền định, tập trung, sống có trách nhiệm, biết ơn và yêu thương…\nTrong cuộc đời của mỗi con người, chúng ta thường phải mày mò, tìm kiếm con đường riêng cho mình mà không biết chắc con đường đó có phù hợp với mình hay không. Đôi lúc, chúng ta phải phải trầy trật, vấp ngã thậm chí lạc lối mới rút ra được kinh nghiệm, bài học. Nếu hiểu về Nhân số học, và thông qua những kiến thức nhất định về ý nghĩa và sự kết hợp của các con số, chúng ta có thể tự vạch ra cho mình một hướng đi tương đối cụ thể, giảm thiểu được các lần “thử và sai”, từ đó tìm được nhiều niềm vui, hạnh phúc, ý nghĩa trong cuộc sống.\nĐó chính là thông điệp và mục đích lớn nhất mà tiến sỹ David A. Phillips và Lê Đỗ Quỳnh Hương mong muốn gửi gắm cho đông đảo bạn đọc.\nVỀ TÁC GIẢ\nDAVID A. PHILLIPS, tiến sĩ triết học tại Đại học London năm 1971, nhưng sau đó lại được biết đến như một chuyên gia trong lĩnh vực sức khỏe và dinh dưỡng. Lúc sinh thời, ông cũng thường đến các nước nói tiếng Anh trên thế giới để giảng dạy và diễn thuyết, tư vấn về Nhân số học, cống hiến sự nghiên cứu cả đời mình về lĩnh vực sức khỏe và phát triển cá nhân cho việc giảng dạy.Tiến sĩ A.Phillips viết tổng cộng 12 quyển sách, trong đó, nổi tiếng và được yêu thích rộng rãi nhất là cuốn The Complete Book of Numerology (Một quyển sách toàn diện về Nhân Số Học).\nLê Đỗ Quỳnh Hương, thạc sĩ Âm nhạc học tại Nhạc viện TP. HCM, là một biên tập viên, người dẫn chương trình quen thuộc tại Việt Nam, cũng là một cây bút với nhiều quyển sách về chủ đề sống tích cực được nhiều người yêu thích. Lần đầu tiên bén duyên với lĩnh vực Nhân số học, chị cùng các đồng sự đã tìm hiểu, nghiên cứu dựa trên nền tảng cuốn “The Complete Book of Numerology” để cho ra đời tác phẩm “Thay đổi cuộc sống với Nhân số học”, một quyển sách giúp bản thân mỗi người hiểu rõ mình hơn và qua đó, có những thay đổi trong cách sống, cách suy nghĩ, hành động... hướng tới cuộc sống vui vẻ, hạnh phúc, an lạc hơn.\nNGƯỜI NỔI TIẾNG NÓI GÌ VỀ CUỐN SÁCH\n“Từ khi tìm hiểu Nhân số học và biết được con số chủ đạo của mình là số 3, tôi thấy vừa bất ngờ vừa thú vị. Phần nói về tính cách của người có con số chủ đạo 3 quá chính xác, gần như hoàn toàn đúng đối với tôi.”- Ca sĩ Đàm Vĩnh Hưng.\nTrước đây, tôi thường oán giận tại sao mình cũng có năng lực nhưng lại không chạm đến được những điều mình mong muốn. Rồi tôi nhận ra do trước đây tôi đã đặt cái tôi của mình quá cao trong mọi chuyện, trải qua nhiều biến cố nhưng vẫn không rút ra được bài học gì cho bản thân. Mãi đến khi biết đến Nhân số học, tôi có cơ hội dám nhìn lại toàn diện bức tranh cuộc đời mình. Khi ý thức được mình là người có nhiều số 1 và số 7 trong Biểu đồ ngày sinh, tôi bắt đầu nhìn nhận sự việc khác đi, nghiệm lại và dần dần tự điều chỉnh bản thân. Và tới bây giờ, tôi đang có một cuộc sống với năng lượng rất tích cực.”- Nhạc sĩ Phương Uyên.\n“Trước đây, tôi từng rất dễ bị ảnh hưởng bởi cảm xúc của mọi người xung quanh. Nhưng tôi của bây giờ đã khác. Nhân số học như một công cụ giúp tôi quán chiếu lại cuộc sống của mình, giúp tôi mỗi ngày luôn hướng về những điều tích cực. Cảm ơn chị Quỳnh Hương đã cất công tìm hiểu, cấu trúc lại Nhân số học và lan tỏa giá trị đến mọi người.”- Nhà nhiếp ảnh Tâm Bùi\n“Tôi là con trai một, được ba mẹ cưng chiều nên rất ham chơi. Tôi sa vào những cuộc nhậu nhẹt, đàn đúm, cá độ, đánh nhau. Cuộc sống bết bát của tôi đã khiến ba tôi ngày càng phiền muộn, ngay cả vào những ngày cuối đời của ông trên giường bệnh. Nhờ mẹ, tôi biết đến cô Quỳnh Hương và Nhân số học, và nhờ Nhân số học, cuộc sống của tôi bắt đầu thay đổi. Tôi hiểu về ‘mảnh đất’ mà Vũ trụ giao cho tôi, và tôi chọn sống khác đi. Tôi thực hiện thiền biết ơn mỗi ngày, gửi yêu thương đến mọi thứ xung quanh, bắt đầu một công việc mới, theo đúng sứ mệnh của một người có con số chủ đạo 6 và có đỉnh cao số 9. Cảm ơn Nhân số học, cô Quỳnh Hương và mẹ đã gieo duyên cho con. Biết ơn về tất cả!”- Lâm Quang Thịnh - Người được thay đổi nhờ Nhân số học",
+        "numOfReview": 7,
+        "author": "Lê Đỗ Quỳnh Hương",
+        "rating": 4.5,
+        "publishingCompany": "NXB Tổng Hợp TPHCM",
+        "category": "Tâm lý - Kỹ năng sống",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Từ Phú Điền Đến New York",
+        "price": 187050,
+        "images": [
+            {
+                "public_id": "products/o4bn1o4hlxqzm3n",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/b/i/bia600_tu-phu-dien-den-new-york.jpg"
+            }
+        ],
+        "description": "HÀNH TRÌNH BUNG NỞ RỰC RỠ CỦA ĐÓA HOA MANG TÊN TUYẾT LAN.",
+        "numOfReview": 0,
+        "author": "Tuyết Lan",
+        "rating": 0,
+        "publishingCompany": "NXB Phụ Nữ Việt Nam",
+        "category": "Tiểu sử - Hồi ký",
+        "stock": 5,
+        "reviews": []
+    },
+    {
+        "name": "Khi Hơi Thở Hóa Thinh Không (Tái Bản 2020)",
+        "price": 87200,
+        "images": [
+            {
+                "public_id": "products/lktouu16ete3rlg",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_34396.jpg"
+            }
+        ],
+        "description": "Khi hơi thở hóa thinh không là tự truyện của một bác sĩ bị mắc bệnh ung thư phổi. Trong cuốn sách này, tác giả đã chia sẻ những trải nghiệm từ khi mới bắt đầu học ngành y, tiếp xúc với bệnh nhân cho tới khi phát hiện ra mình bị ung thư và phải điều trị lâu dài.Kalanithi rất yêu thích văn chương nên câu chuyện của anh đã được thuật lại theo một phong cách mượt mà, dung dị và đầy cảm xúc. Độc giả cũng được hiểu thêm về triết lý sống, triết lý nghề y của Kalanithi, thông qua ký ức về những ngày anh còn là sinh viên, rồi thực tập, cho đến khi chính thức hành nghề phẫu thuật thần kinh.",
+        "numOfReview": 24,
+        "author": "Paul Kalanithi",
+        "rating": 4.9,
+        "publishingCompany": "NXB Lao Động",
+        "category": "Tiểu sử - Hồi ký",
+        "stock": 101,
+        "reviews": []
+    },
+    {
+        "name": "Homo Deus - Lược Sử Tương Lai",
+        "price": 160056,
+        "images": [
+            {
+                "public_id": "products/bq0onabanlo1mec",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_176929.jpg"
+            }
+        ],
+        "description": "Homo sapiens có phải là một dạng sống siêu đẳng, hay chỉ là một tay đầu gấu địa phương? Làm thế nào con người lại tin rằng họ không chỉ đã kiểm soát thế giới, mà còn mang lại ý nghĩa cho nó? Công nghệ sinh học và trí thông minh nhân tạo đe doạ loài người ra sao? Sinh vật nào có thể kế thừa loài người, và tôn giáo mới nào sẽ được sản sinh?Với giọng kể cuốn hút và mới lạ, Harari sẽ dần gợi mở và trả lời những câu hỏi trê, nhờ phân tích chi tiết những luận điểm gây nhiều tranh cãi: chủ nghĩa nhân đạo là một dạng tôn giáo, thứ tôn giáo tôn thờ con người thay vì thần thánh; sinh vật là thuật toán… ông vẽ ra một viễn cảnh tương lai khi Sapiens thất thế và Dữ liệu giáo trở thành một hình mẫu. HOMO DEUS còn bàn sâu hơn về các năng lực mà con người đã tự trang bị để sinh tồn và tiến hoá thành một giống loài ngự trị trên trái đất, để rồi chính trong tiến trình hoàn thiện và nâng cấp các năng lực ấy chúng ta sẽ bị truất quyền kiểm soát bởi một sinh vật mới, mang tên Homo Deus.",
+        "numOfReview": 18,
+        "author": "Yuval Noah Harari",
+        "rating": 4.8,
+        "publishingCompany": "NXB Lao Động",
+        "category": "Tiểu sử - Hồi ký",
+        "stock": 42,
+        "reviews": []
+    },
+    {
+        "name": "Lấy Nước Đường Xa",
+        "price": 48300,
+        "images": [
+            {
+                "public_id": "products/gisu5v8q4jieuc0",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/l/a/lay-nuoc-duong-xa_bia-mem_out_69k-02_1.jpg"
+            }
+        ],
+        "description": "Lấy nước đường xa -  Cuốn tiểu thuyết dựa trên một câu chuyện có thật tại Châu Phi. Hai câu chuyện đan xen nhau kể về hai đứa trẻ tại Sudan – sống ở hai thời kỳ khác nhau – hai bộ tộc đối lập nhau và hai cuộc “đấu tranh” không giống nhau. Nya là một cô bé mười một tuổi ở năm 2008. Cô bé phải đi bộ mỗi ngày 8 tiếng để lấy nước từ một cái ao ô nhiễm - hai chuyến mỗi ngày. Cô bé không có thời gian cho trường học, cho vui chơi, cho tất cả những điều mà hầu hết các cô gái nhỏ đều trải qua. Cho đến khi, một ngày nọ, những người lạ vào làng của họ để đào giếng và xây trường học. Salva là cậu bé 11 tuổi đi bộ xuyên lục địa Châu Phi để tìm thức ăn, gia đình và một nơi trú ẩn. Đó là năm 1985 khi Salva đang đi học và chiến tranh nổ ra. Salva phải băng qua sa mạc để đến một trại tị nạn ở Ethiopia. Sau một thời gian dài ở lại, Salva một lần nữa băng qua sa mạc để đến Kenya. Trên chặng đường dài ấy nhiều đã không vượt qua được. Họ chết vì đói, bị thú vật dữ và bị binh lính tấn công. Salva là số ít những người còn sống sót và được một gia đình người Mỹ nhận nuôi.",
+        "numOfReview": 0,
+        "author": "Linda Sue Park",
+        "rating": 0,
+        "publishingCompany": "NXB Lao Động",
+        "category": "Tiểu sử - Hồi ký",
+        "stock": 52,
+        "reviews": []
+    },
+    {
+        "name": "Trịnh Công Sơn - Thư Tình Gửi Một Người",
+        "price": 169650,
+        "images": [
+            {
+                "public_id": "products/4lcxzxbi8n06i8i",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974175230.jpg"
+            }
+        ],
+        "description": "Tập Thư tình gửi một người của Nhà xuất bản Trẻ ra mắt nhân kỷ niệm mười năm ngày nhạc sĩ Trịnh Công Sơn từ trần (1/4/2001 - 1/4/2011); đầu sách này cũng ở trong số các ấn phẩm đặc biệt ra đời trong tháng kỷ niệm 30 năm ngày thành lập Nhà xuất bản Trẻ (1981 - 2011). Thông qua những lá thư của nhạc sĩ Trịnh Công Sơn gửi cô gái Huế có tên Ngô Vũ Dao Ánh, người đọc không chỉ tìm thấy vẻ đẹp kỳ diệu của một tình yêu huyền nhiệm mà còn hiểu được những lo âu, dằn vặt triền miên của nhạc sĩ về kiếp người, về lòng tin và những điều tốt đẹp đang bị mai một dần trong cõi nhân gian. Bên cạnh gia tài đồ sộ về âm nhạc của Trịnh Công Sơn, đây có thể được xem là một áng văn chương thật ấn tượng trong đời hoạt động nghệ thuật của ông.Tập Thư tình gửi một người này được thực hiện với hai loại ấn bản: thông thường và đặc biệt.Trong những lá thư, có khá nhiều từ tiếng Pháp cũng như có nhiều trích dẫn cần được chuyển sang Việt ngữ hoặc chú giải; công việc tạm dịch nghĩa và chú giải có thể chưa hoàn toàn chính xác với những gì nhạc sĩ Trịnh Công Sơn muốn nói trong thư. Rất mong được bạn đọc góp ý để nếu ấn phẩm tái bản trong tương lai sẽ hoàn chỉnh hơn.",
+        "numOfReview": 0,
+        "author": "Trịnh Công Sơn",
+        "rating": 0,
+        "publishingCompany": "NXB Trẻ",
+        "category": "Tiểu sử - Hồi ký",
+        "stock": 55,
+        "reviews": []
+    },
+    {
+        "name": "Tổng Ôn Ngữ Pháp Tiếng Anh",
+        "price": 180000,
+        "images": [
+            {
+                "public_id": "products/6rlm505yxyek53w",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/9/7/9786043519112.jpg"
+            }
+        ],
+        "description": "Tips Học Sách Tiếng Anh Cô Trang Anh: Tổng Ôn Ngữ Pháp Hiệu Quả: Bước 1: Kích hoạt mã ID phía cuối cuốn sách. Bước 2: Xem bài giảng lý thuyết trực tuyến đính kèm trên hệ thống qua mã ID.Bước 3: Xem ví dụ và bài tập minh họa trong bài giảng Tiếng Anh cô Trang Anh. Bước 4: Thực hành làm bài tập trong sách Tổng ôn ngữ pháp. Bước 5: Tra cứu đáp án theo chuyên đề ngữ pháp hoặc từng câu hỏi. Để lại bình luận nếu cần hỗ trợ giải đáp.",
+        "numOfReview": 0,
+        "author": "Trang Anh",
+        "rating": 0,
+        "publishingCompany": "NXB Hồng Đức",
+        "category": "Giáo Khoa - Sách tham khảo",
+        "stock": 75,
+        "reviews": []
+    },
+    {
+        "name": "Sách Giáo Khoa Bộ Lớp 11 - Sách Bài Học (Bộ 14 Cuốn) (2022) + 2 Cuộn Bao Sách Nylon TP",
+        "price": 199000,
+        "images": [
+            {
+                "public_id": "products/co33vy4iryzb309",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/3/3/3300000015408.jpg"
+            }
+        ],
+        "description": "Sách Giáo Khoa Bộ Lớp 11 - Sách Bài Học (Bộ 14 Cuốn) (2022) + 2 Cuộn Bao Sách Nylon TP",
+        "numOfReview": 0,
+        "author": "Bộ Giáo Dục Và Đào Tạo",
+        "rating": 0,
+        "publishingCompany": "NXB Giáo Dục Việt Nam",
+        "category": "Giáo Khoa - Sách tham khảo",
+        "stock": 55,
+        "reviews": []
+    },
+    {
+        "name": "Sổ Tay Học Nhanh Toàn Diện Kiến Thức Và Dạng Bài Hóa Học Lớp 8-9",
+        "price": 54400,
+        "images": [
+            {
+                "public_id": "products/oz0cgnlz77rpip6",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_5135.jpg"
+            }
+        ],
+        "description": "Tổng hợp toàn bộ những kiến thức trọng tâm của chương trình Hóa học THCS. Chỉ với cuốn sách này, các teen lớp 8, lớp 9 hoàn toàn có thể nắm chắc kiến thức để làm bài tập và ôn luyện trước các kì kiểm tra . Được coi là cuốn sổ tay thần thánh không chỉ tổng hợp lý thuyết, công thức hóa học, cuốn sách còn tổng hợp các dạng bài thường gặp nhất trong các đề kiểm tra. Sau khi học lý thuyết, các bài thực hành giúp người học hiểu sâu sắc và nhớ lâu hơn.",
+        "numOfReview": 1,
+        "author": "Trần Thị Yến",
+        "rating": 5,
+        "publishingCompany": "NXB Đại Học Quốc Gia Hà Nội",
+        "category": "Giáo Khoa - Sách tham khảo",
+        "stock": 55,
+        "reviews": []
+    },
+    {
+        "name": "Tủ Sách Cho Bé Vào Lớp 1 - Bé Tập Tô Nét Cơ Bản - Dành Cho Bé 4-5 Tuổi",
+        "price": 6400,
+        "images": [
+            {
+                "public_id": "products/m7ldksdh4yaxi95",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_29261.jpg"
+            }
+        ],
+        "description": "Tổng hợp toàn bộ những kiến thức trọng tâm của chương trình Hóa học THCS. Chỉ với cuốn sách này, các teen lớp 8, lớp 9 hoàn toàn có thể nắm chắc kiến thức để làm bài tập và ôn luyện trước các kì kiểm tra . Được coi là cuốn sổ tay thần thánh không chỉ tổng hợp lý thuyết, công thức hóa học, cuốn sách còn tổng hợp các dạng bài thường gặp nhất trong các đề kiểm tra. Sau khi học lý thuyết, các bài thực hành giúp người học hiểu sâu sắc và nhớ lâu hơn.",
+        "numOfReview": 0,
+        "author": "Lê Tuệ Minh, Lê Thu Ngọc",
+        "rating": 0,
+        "publishingCompany": "NXB Mỹ Thuật",
+        "category": "Giáo Khoa - Sách tham khảo",
+        "stock": 15,
+        "reviews": []
+    },
+    {
+        "name": "Bài Tập Trắc Nghiệm Tiếng Anh 9 (Có Đáp Án) (Tái Bản 2018)",
+        "price": 44800,
+        "images": [
+            {
+                "public_id": "products/66k4joxj6wmk7za",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_180164_1_43_1_57_1_4_1_2_1_210_1_29_1_98_1_25_1_21_1_5_1_3_1_18_1_18_1_45_1_26_1_32_1_14_1_198.jpg"
+            }
+        ],
+        "description": "Tổng hợp toàn bộ những kiến thức trọng tâm của chương trình Hóa học THCS. Chỉ với cuốn sách này, các teen lớp 8, lớp 9 hoàn toàn có thể nắm chắc kiến thức để làm bài tập và ôn luyện trước các kì kiểm tra . Được coi là cuốn sổ tay thần thánh không chỉ tổng hợp lý thuyết, công thức hóa học, cuốn sách còn tổng hợp các dạng bài thường gặp nhất trong các đề kiểm tra. Sau khi học lý thuyết, các bài thực hành giúp người học hiểu sâu sắc và nhớ lâu hơn.",
+        "numOfReview": 0,
+        "author": "Mai lan Hương",
+        "rating": 0,
+        "publishingCompany": "NXB Đà Nẵng",
+        "category": "Giáo Khoa - Sách tham khảo",
+        "stock": 45,
+        "reviews": []
+    },
+    {
+        "name": "25 Chuyên Đề Ngữ Pháp Tiếng Anh Trọng Tâm - Tập 1",
+        "price": 88000,
+        "images": [
+            {
+                "public_id": "products/en4e8o7iodz7956",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_188186.jpg"
+            }
+        ],
+        "description": "Các chuyên đề ngữ pháp trọng tâm được trình bày đơn giản, dễ hiểu cùng với hệ thống bài tập và từ vựng phong phú. Có tất cả 25 chuyên đề trong 2 tập sách, là tài liệu hữu ích cho học sinh, sinh viên, người đi làm, luyện thi cho các kỳ thi quốc gia, ôn luyện các chứng chỉ quốc tế và là tài liệu tham khảo cho giáo viên.",
+        "numOfReview": 7,
+        "author": "Trang Anh",
+        "rating": 5,
+        "publishingCompany": "NXB Đại Học Sư Phạm",
+        "category": "Sách học ngoại ngữ",
+        "stock": 80,
+        "reviews": []
+    },
+    {
+        "name": "Mindmap English Grammar - Ngữ Pháp Tiếng Anh Bằng Sơ Đồ Tư Duy",
+        "price": 161500,
+        "images": [
+            {
+                "public_id": "products/uduqe6pi9022pzk",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935246917176.jpg"
+            }
+        ],
+        "description": "Trước đây, khi tiếng Anh chưa là ngôn ngữ quốc tế trong môi trường toàn cầu hóa, xu hướng việc giảng dạy và học tập tiếng Anh tại Việt Nam thiên về hai kỹ năng ĐỌC HIỂU và VIẾT. Hệ quả là trong các thế hệ trước, nhiều người đọc hiểu và viết tiếng Anh thông thạo không kém người bản xứ được học hành tử tế; ngược lại, gặp khó khăn khi giao tiếp nghe-nói bằng tiếng Anh. ",
+        "numOfReview": 4,
+        "author": "Đỗ Nhung",
+        "rating": 4.3,
+        "publishingCompany": "NXB Hồng Đức",
+        "category": "Sách học ngoại ngữ",
+        "stock": 40,
+        "reviews": []
+    },
+    {
+        "name": "Hackers Ielts: Writing",
+        "price": 131000,
+        "images": [
+            {
+                "public_id": "products/33csd43au8ec5w5",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_709.jpg"
+            }
+        ],
+        "description": "Bộ sách luyện thi IELTS đầu tiên có kèm giải thích đáp án chi tiết và hướng dẫn cách tự nâng band điểm. IELTS là cánh cửa giúp các bạn thí sinh hiện thực hóa ước mơ vươn ra thế giới. Chính vì vậy, ngay từ bây giờ, hãy nỗ lực luyện tập và chuẩn bị cho bài thi quan trọng này. Viện Ngôn ngữ Hackers đã biên soạn bộ sách HACKERS IELTS gồm 4 cuốn tương đương với 4 kỹ năng nhằm giới thiệu tới các bạn phương pháp luyện thi phù hợp nhất để có thể đạt điểm cao trong bài thi này",
+        "numOfReview": 4,
+        "author": "Viện ngôn ngữ Hackers",
+        "rating": 5,
+        "publishingCompany": "NXB Thế Giới",
+        "category": "Sách học ngoại ngữ",
+        "stock": 41,
+        "reviews": []
+    },
+    {
+        "name": "Hackers Ielts: Listening",
+        "price": 98000,
+        "images": [
+            {
+                "public_id": "products/ssfijs154cx2luk",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_709.jpg"
+            }
+        ],
+        "description": "Bộ sách luyện thi IELTS đầu tiên có kèm giải thích đáp án chi tiết và hướng dẫn cách tự nâng band điểm. IELTS là cánh cửa giúp các bạn thí sinh hiện thực hóa ước mơ vươn ra thế giới. Chính vì vậy, ngay từ bây giờ, hãy nỗ lực luyện tập và chuẩn bị cho bài thi quan trọng này. Viện Ngôn ngữ Hackers đã biên soạn bộ sách HACKERS IELTS gồm 4 cuốn tương đương với 4 kỹ năng nhằm giới thiệu tới các bạn phương pháp luyện thi phù hợp nhất để có thể đạt điểm cao trong bài thi này",
+        "numOfReview": 3,
+        "author": "Viện ngôn ngữ Hackers",
+        "rating": 5,
+        "publishingCompany": "NXB Thế Giới",
+        "category": "Sách học ngoại ngữ",
+        "stock": 41,
+        "reviews": []
+    },
+    {
+        "name": "Hackers Ielts: Speaking",
+        "price": 109000,
+        "images": [
+            {
+                "public_id": "products/hhtxka6ygsl9b8b",
+                "url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_708.jpg"
+            }
+        ],
+        "description": "Bộ sách luyện thi IELTS đầu tiên có kèm giải thích đáp án chi tiết và hướng dẫn cách tự nâng band điểm. IELTS là cánh cửa giúp các bạn thí sinh hiện thực hóa ước mơ vươn ra thế giới. Chính vì vậy, ngay từ bây giờ, hãy nỗ lực luyện tập và chuẩn bị cho bài thi quan trọng này. Viện Ngôn ngữ Hackers đã biên soạn bộ sách HACKERS IELTS gồm 4 cuốn tương đương với 4 kỹ năng nhằm giới thiệu tới các bạn phương pháp luyện thi phù hợp nhất để có thể đạt điểm cao trong bài thi này",
+        "numOfReview": 2,
+        "author": "Viện ngôn ngữ Hackers",
+        "rating": 5,
+        "publishingCompany": "NXB Thế Giới",
+        "category": "Sách học ngoại ngữ",
+        "stock": 15,
+        "reviews": []
     }
 ]
