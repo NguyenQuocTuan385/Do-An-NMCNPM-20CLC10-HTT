@@ -12,11 +12,11 @@ const Home = () => {
                         <div className="card p-3 rounded">
                             <img
                                 className="card-img-top mx-auto"
-                                src="https://m.media-amazon.com/images/I/617NtexaW2L._AC_UY218_.jpg"
+                                src="https://cdn0.fahasa.com/media/catalog/product/b/i/bia_tudientiengem-_1_.jpg"
                             />
                             <div className="card-body d-flex flex-column">
                                 <h5 className="card-title">
-                                    <a href="">128GB Solid Storage Memory card - SanDisk Ultra</a>
+                                    <a href="">Từ Điển Tiếng “Em” - Tái Bản 2021</a>
                                 </h5>
                                 <div className="ratings mt-auto">
                                     <div className="rating-outer">
