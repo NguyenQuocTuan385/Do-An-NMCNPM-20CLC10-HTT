@@ -12,7 +12,7 @@
         "numOfReviews": 0,
         "author": "Khotudien",
         "rating": 0,
-        "publishingCompany": "Khotudien",
+        "publishingCompany": "NXB Phụ Nữ Việt Nam",
         "category": "Văn học",
         "stock": 5,
         "reviews": []
@@ -30,7 +30,7 @@
         "numOfReviews": 1,
         "author": "Kulzsc",
         "rating": 5,
-        "publishingCompany": "Kulzsc",
+        "publishingCompany": "NXB Thế Giới",
         "category": "Văn học",
         "stock": 32,
         "reviews": []
@@ -48,7 +48,7 @@
         "numOfReviews": 37,
         "author": "Paulo Coelho",
         "rating": 4.9,
-        "publishingCompany": "Paulo Coelho",
+        "publishingCompany": "NXB Hội Nhà Văn",
         "category": "Văn học",
         "stock": 25,
         "reviews": []
@@ -66,7 +66,7 @@
         "numOfReviews": 0,
         "author": "Saekisan, Hanekoto",
         "rating": 0,
-        "publishingCompany": "Saekisan, Hanekoto",
+        "publishingCompany": "NXB Kim Đồng",
         "category": "Văn học",
         "stock": 13,
         "reviews": []
@@ -84,7 +84,7 @@
         "numOfReviews": 79,
         "author": "Nguyễn Nhật Ánh",
         "rating": 4.9,
-        "publishingCompany": "Nguyễn Nhật Ánh",
+        "publishingCompany": "NXB Trẻ",
         "category": "Văn học",
         "stock": 123,
         "reviews": []
