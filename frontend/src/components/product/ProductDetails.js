@@ -7,23 +7,24 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getProductDetails, clearErrors } from '../../actions/productActions'
 const ProductDetails = ({ match }) => {
 
-    const disptach = useDispatch()
+    const dispatch = useDispatch()
     const alert = useAlert()
     const { loading, error, product } = useSelector(state => state.productDetails)
 
     useEffect(() => {
-        disptach(getProductDetails(match.params.id))
+        dispatch(getProductDetails(match.params.id))
 
         if (error) {
             alert.error(error)
-            disptach(clearErrors())
+            dispatch(clearErrors())
         }
-    }, [disptach, alert, error, match.params.id])
+    }, [dispatch, alert, error, match.params.id])
 
     return (
         <Fragment>
             {loading ? <Loader /> : (
                 <Fragment>
+                    <MetaData title={product.name} />
                     <div className="row f-flex justify-content-around">
                         <div className="col-12 col-lg-5 img-fluid" id="product_image">
                             <Carousel pause='hover'>
@@ -46,7 +47,7 @@ const ProductDetails = ({ match }) => {
                                     width: `${(product.rating / 5) * 100}%`
                                 }}></div>
                             </div>
-                            <span id="no_of_reviews">({product.numOfReviews} Reviews)</span>
+                            <span id="no_of_reviews">({product.numOfReviews} Đánh giá)</span>
 
                             <hr />
 
@@ -58,22 +59,22 @@ const ProductDetails = ({ match }) => {
 
                                 <span className="btn btn-primary plus">+</span>
                             </div>
-                            <button type="button" id="cart_btn" className="btn btn-primary d-inline ml-4">Add to Cart</button>
+                            <button type="button" id="cart_btn" className="btn btn-primary d-inline ml-4">Thêm vào giỏ hàng</button>
 
                             <hr />
 
-                            <p>Status: <span id="stock_status" className={product.stock > 0 ? 'greenColor' : 'redColor'} > {product.stock > 0 ? 'In Stock' : 'Out of Stock'}</span></p>
+                            <p>Status: <span id="stock_status" className={product.stock > 0 ? 'greenColor' : 'redColor'} > {product.stock > 0 ? 'Còn hàng' : 'Hết hàng'}</span></p>
 
                             <hr />
 
-                            <h4 className="mt-2">Description:</h4>
+                            <h4 className="mt-2">Mô tả chi tiết:</h4>
                             <p>{product.description}</p>
                             <hr />
-                            <p id="product_seller mb-3">Author: <strong>{product.author}</strong></p>
+                            <p id="product_seller mb-3">Tác giả: <strong>{product.author}</strong></p>
                             <p id="product_seller mb-3">Nhà xuất bản: <strong>{product.publishingCompany}</strong></p>
 
                             <button id="review_btn" type="button" className="btn btn-primary mt-4" data-toggle="modal" data-target="#ratingModal">
-                                Submit Your Review
+                                Thêm bài đánh giá
                             </button>
 
                             <div className="row mt-2 mb-5">
