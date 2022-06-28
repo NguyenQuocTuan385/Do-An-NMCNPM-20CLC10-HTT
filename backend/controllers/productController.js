@@ -20,7 +20,6 @@ exports.newProduct = catchAsyncErrors(async (req, res, next) => {
 //api/v1/products?keyword=Giàu&category=Kinh Tế&rating[gte]=1&rating[lte]=5
 exports.getProducts = catchAsyncErrors(async (req, res, next) => {
 
-
     const resPerPage = 8;
     const productsCount = await Product.countDocuments();
     const apiFeatures = new APIFeatures(Product.find(), req.query)
@@ -29,14 +28,11 @@ exports.getProducts = catchAsyncErrors(async (req, res, next) => {
         .pagination(resPerPage)
     const products = await apiFeatures.query;
 
-    setTimeout(() => {
-        res.status(200).json({
-            success: true,
-            productsCount,
-            products
-        })
-    }, 1000)
-
+    res.status(200).json({
+        success: true,
+        productsCount,
+        products
+    })
 })
 
 //Get single product details => /api/v1/admin/product/:id
