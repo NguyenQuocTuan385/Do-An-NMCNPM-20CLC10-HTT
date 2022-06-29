@@ -14,22 +14,42 @@ const Range = createSliderWithTooltip(Slider.Range)
 
 const Home = ({ match }) => {
     const [currentPage, setCurrentPage] = useState(1)
-    const [price, setPrice] = useState([1000, 100000])
+    const [price, setPrice] = useState([1000, 1000000])
+    const [category, setCategory] = useState('')
+
+    const categories = [
+        'Văn học',
+        'Kinh Tế',
+        'Tâm lý - Kỹ năng sống',
+        'Truyện Thiếu Nhi',
+        'Tiểu sử - Hồi ký',
+        'Giáo Khoa - Sách tham khảo',
+        'Sách học ngoại ngữ'
+    ]
+
     const dispatch = useDispatch()
     const alert = useAlert()
-    const { loading, products, error, productsCount, resPerPage } = useSelector(state => state.products)
+    const { loading, products, error, productsCount, resPerPage, filteredProductsCount } =
+        useSelector(state => state.products)
     const keyword = match.params.keyword
+
     useEffect(() => {
         if (error) {
             return alert.error(error)
         }
-        dispatch(getProducts(keyword, currentPage, price))
+        dispatch(getProducts(keyword, currentPage, price, category))
 
 
-    }, [dispatch, alert, error, keyword, currentPage, price])
+    }, [dispatch, alert, error, keyword, currentPage, price, category])
 
     function setCurrentPageNo(pageNumber) {
         setCurrentPage(pageNumber)
+    }
+
+    let count = productsCount
+
+    if (keyword) {
+        count = filteredProductsCount
     }
     return (
         <Fragment>
@@ -45,11 +65,11 @@ const Home = ({ match }) => {
                                         <div className="px-5">
                                             <Range marks={{
                                                 1000: `1.000₫`,
-                                                100000: `100.000₫`
+                                                1000000: `1.000.000₫`
                                             }}
                                                 min={1000}
-                                                max={100000}
-                                                defaultValue={[1000, 100000]}
+                                                max={1000000}
+                                                defaultValue={[1000, 1000000]}
                                                 tipFormatter={value => `${value}₫`}
                                                 tipProps={{
                                                     placement: "top",
@@ -58,6 +78,28 @@ const Home = ({ match }) => {
                                                 value={price}
                                                 onChange={price => setPrice(price)}
                                             />
+
+                                            <hr className="my-5" />
+                                            <div className="mt-5">
+                                                <h4 className="mb-3">
+                                                    Thể Loại
+                                                </h4>
+                                                <ul className="pl-0">
+                                                    {categories.map(category => (
+                                                        <li style={{
+                                                            cursor: 'pointer',
+                                                            listStyleType: 'none'
+                                                        }}
+                                                            key={category}
+                                                            onClick={() => setCategory(category)
+                                                            }
+                                                        >
+                                                            {category}
+                                                        </li>
+                                                    ))}
+
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -78,7 +120,7 @@ const Home = ({ match }) => {
                         </div>
                     </section>
 
-                    {resPerPage <= productsCount && (
+                    {resPerPage <= count && (
                         <div className="d-flex justify-content-center mt-5">
                             <Pagination
                                 activePage={currentPage}
