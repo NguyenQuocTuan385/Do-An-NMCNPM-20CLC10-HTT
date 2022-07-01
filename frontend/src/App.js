@@ -9,6 +9,7 @@ import Register from './components/user/Register'
 import { loadUser } from './actions/userActions'
 import store from './store'
 function App() {
+
   useEffect(() => {
     store.dispatch(loadUser())
   }, [])
