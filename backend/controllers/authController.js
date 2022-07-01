@@ -4,6 +4,7 @@ const catchAsyncErrors = require('../middlewares/catchAsyncErrors');
 const sendToken = require('../utils/jwtToken');
 const sendEmail = require('../utils/sendEmail');
 const crypto = require('crypto')
+const cloudinary = require('cloudinary')
 
 //Forgot Password => api/v1/password/forgot
 exports.forgotPassword = catchAsyncErrors(async (req, res, next) => {
@@ -80,10 +81,6 @@ exports.registerUser = catchAsyncErrors(async (req, res, next) => {
         name,
         email,
         password,
-        avatar: {
-            public_id: 'avatars/3wd82ks0tc3jz1vzc7xt',
-            url: 'https://scontent.fsgn5-9.fna.fbcdn.net/v/t39.30808-6/272275516_1608903656118968_8706847657319824741_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tbaEBY6rEucAX9PQfdr&_nc_ht=scontent.fsgn5-9.fna&oh=00_AT_JVtmbU6loyg3bNeK6c9SNPHsPXGDU2QGQ56wywKhu4A&oe=62AB5D25'
-        }
     })
 
     sendToken(user, 200, res)

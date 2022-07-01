@@ -42,11 +42,14 @@ export const register = (userData) => async (dispatch) => {
 
         const config = {
             headers: {
-                'Content-Type': 'multipart/form-data'
+                'Content-Type': 'application/json'
             }
         }
+        const object = {};
+        userData.forEach((value, key) => object[key] = value);
+        const json = JSON.stringify(object);
 
-        const { data } = await axios.post('/api/v1/register', userData, config)
+        const { data } = await axios.post('/api/v1/register', json, config)
 
         dispatch({
             type: REGISTER_USER_SUCCESS,
