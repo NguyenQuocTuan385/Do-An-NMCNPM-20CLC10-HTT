@@ -23,7 +23,6 @@ export const UpdatePassword = ({ history }) => {
         }
         if (isUpdated) {
             alert.success('Thay đổi mật khẩu thành công')
-            dispatch(loadUser())
 
             history.push('/me')
 
@@ -49,9 +48,9 @@ export const UpdatePassword = ({ history }) => {
             <div className="row wrapper">
                 <div className="col-10 col-lg-5">
                     <form className="shadow-lg" onSubmit={submitHandler}>
-                        <h1 className="mt-2 mb-5">Update Password</h1>
+                        <h1 className="mt-2 mb-5">Thay đổi mật khẩu</h1>
                         <div className="form-group">
-                            <label htmlFor="old_password_field">Old Password</label>
+                            <label htmlFor="old_password_field">Nhập mật khẩu cũ</label>
                             <input
                                 type="password"
                                 id="old_password_field"
@@ -62,7 +61,7 @@ export const UpdatePassword = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="new_password_field">New Password</label>
+                            <label htmlFor="new_password_field">Nhập mật khẩu mới</label>
                             <input
                                 type="password"
                                 id="new_password_field"
@@ -73,7 +72,7 @@ export const UpdatePassword = ({ history }) => {
                         </div>
 
                         <button type="submit" className="btn update-btn btn-block mt-4 mb-3"
-                            disabled={loading ? true : false}>Update Password</button>
+                            disabled={loading ? true : false}>Cập nhật</button>
                     </form>
                 </div>
             </div>

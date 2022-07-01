@@ -18,9 +18,18 @@ import {
     UPDATE_PASSWORD_FAIL,
     LOGOUT_SUCCESS,
     LOGOUT_FAIL,
+    FORGOT_PASSWORD_REQUEST,
+    FORGOT_PASSWORD_SUCCESS,
+    FORGOT_PASSWORD_FAIL,
     CLEAR_ERRORS
 } from '../constants/userConstants'
 
+function convertFormDataToJson(formData) {
+    const object = {};
+    formData.forEach((value, key) => object[key] = value);
+    const json = JSON.stringify(object);
+    return json
+}
 //Login
 export const login = (email, password) => async (dispatch) => {
     try {
@@ -56,11 +65,8 @@ export const register = (userData) => async (dispatch) => {
                 'Content-Type': 'application/json'
             }
         }
-        const object = {};
-        userData.forEach((value, key) => object[key] = value);
-        const json = JSON.stringify(object);
 
-        const { data } = await axios.post('/api/v1/register', json, config)
+        const { data } = await axios.post('/api/v1/register', convertFormDataToJson(userData), config)
 
         dispatch({
             type: REGISTER_USER_SUCCESS,
@@ -122,11 +128,8 @@ export const updateProfile = (userData) => async (dispatch) => {
                 'Content-Type': 'application/json'
             }
         }
-        const object = {};
-        userData.forEach((value, key) => object[key] = value);
-        const json = JSON.stringify(object);
 
-        const { data } = await axios.put('/api/v1/me/update', json, config)
+        const { data } = await axios.put('/api/v1/me/update', convertFormDataToJson(userData), config)
 
         dispatch({
             type: UPDATE_PROFILE_SUCCESS,
@@ -150,11 +153,8 @@ export const updatePassword = (passwords) => async (dispatch) => {
                 'Content-Type': 'application/json'
             }
         }
-        const object = {};
-        passwords.forEach((value, key) => object[key] = value);
-        const json = JSON.stringify(object);
 
-        const { data } = await axios.put('/api/v1/password/update', json, config)
+        const { data } = await axios.put('/api/v1/password/update', convertFormDataToJson(passwords), config)
 
         dispatch({
             type: UPDATE_PASSWORD_SUCCESS,
@@ -168,6 +168,31 @@ export const updatePassword = (passwords) => async (dispatch) => {
     }
 }
 
+
+//Forgot Password
+export const forgotPassword = (email) => async (dispatch) => {
+    try {
+        dispatch({ type: FORGOT_PASSWORD_REQUEST })
+
+        const config = {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }
+
+        const { data } = await axios.post('/api/v1/password/forgot', convertFormDataToJson(email), config)
+
+        dispatch({
+            type: FORGOT_PASSWORD_SUCCESS,
+            payload: data.message
+        })
+    } catch (error) {
+        dispatch({
+            type: FORGOT_PASSWORD_FAIL,
+            payload: error.response.data.message
+        })
+    }
+}
 
 //Clear Errors
 export const clearErrors = () => async (dispatch) => {
