@@ -21,6 +21,7 @@ const Register = ({ history }) => {
     useEffect(() => {
         if (isAuthenticated) {
             history.push('/')
+            alert.success('Đăng ký thành công.')
         }
         if (error) {
             alert.error(error)
@@ -44,15 +45,15 @@ const Register = ({ history }) => {
     }
     return (
         <Fragment>
-            <MetaData title={'Register User'} />
+            <MetaData title={'Đăng ký tài khoản'} />
 
             <div className="row wrapper">
                 <div className="col-10 col-lg-5">
                     <form className="shadow-lg" onSubmit={submitHandler} encType='multipart/form-data'>
-                        <h1 className="mb-3">Register</h1>
+                        <h1 className="mb-3">Đăng ký</h1>
 
                         <div className="form-group">
-                            <label htmlFor="email_field">Name</label>
+                            <label htmlFor="email_field">Tên</label>
                             <input
                                 type="name"
                                 id="name_field"
@@ -76,7 +77,7 @@ const Register = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="password_field">Password</label>
+                            <label htmlFor="password_field">Mật khẩu</label>
                             <input
                                 type="password"
                                 id="password_field"
@@ -93,7 +94,7 @@ const Register = ({ history }) => {
                             className="btn btn-block py-3"
                             disabled={loading ? true : false}
                         >
-                            REGISTER
+                            Đăng ký
                         </button>
                     </form>
                 </div>

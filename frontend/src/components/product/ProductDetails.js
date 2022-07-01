@@ -5,6 +5,8 @@ import MetaData from '../layout/MetaData'
 import { useAlert } from 'react-alert'
 import { useDispatch, useSelector } from 'react-redux'
 import { getProductDetails, clearErrors } from '../../actions/productActions'
+import { formatMoney } from './Product'
+
 const ProductDetails = ({ match }) => {
 
     const dispatch = useDispatch()
@@ -19,7 +21,6 @@ const ProductDetails = ({ match }) => {
             dispatch(clearErrors())
         }
     }, [dispatch, alert, error, match.params.id])
-
     return (
         <Fragment>
             {loading ? <Loader /> : (
@@ -35,7 +36,6 @@ const ProductDetails = ({ match }) => {
                                 ))}
                             </Carousel>
                         </div>
-
                         <div className="col-12 col-lg-5 mt-5">
                             <h3>{product.name}</h3>
                             <p id="product_id">Product # {product._id}</p>
@@ -51,7 +51,7 @@ const ProductDetails = ({ match }) => {
 
                             <hr />
 
-                            <p id="product_price">{product.price}₫</p>
+                            <p id="product_price">{formatMoney(product.price)}₫</p>
                             <div className="stockCounter d-inline">
                                 <span className="btn btn-danger minus">-</span>
 

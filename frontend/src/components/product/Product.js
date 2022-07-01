@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
+export const formatMoney = (n) => {
+    return (Math.round(n * 100) / 100).toLocaleString();
+}
+
 const Product = ({ product, col }) => {
-    //const priceDots = product.price.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1.");
     return (
         <div className={`col-sm-12 col-md-6 col-lg-3-${col} my-3`}>
             <div className="card p-3 rounded">
@@ -21,7 +25,8 @@ const Product = ({ product, col }) => {
                         </div>
                         <span id="no_of_reviews">({product.numOfReviews} Đánh giá)</span>
                     </div>
-                    <p className="card-text">{product.price}₫</p>
+
+                    <p className="card-text">{formatMoney(product.price)}₫</p>
                     <Link to={`/product/${product._id}`} id="view_btn" className="btn btn-block">Xem chi tiết</Link>
                 </div>
             </div>

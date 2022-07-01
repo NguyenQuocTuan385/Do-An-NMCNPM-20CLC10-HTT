@@ -8,6 +8,7 @@ import Loader from './layout/Loader'
 import { useAlert } from 'react-alert'
 import Slider from 'rc-slider'
 import 'rc-slider/assets/index.css'
+import { formatMoney } from './product/Product'
 
 const { createSliderWithTooltip } = Slider
 const Range = createSliderWithTooltip(Slider.Range)
@@ -70,7 +71,7 @@ const Home = ({ match }) => {
                                                 min={1000}
                                                 max={1000000}
                                                 defaultValue={[1000, 1000000]}
-                                                tipFormatter={value => `${value}₫`}
+                                                tipFormatter={value => ` ${formatMoney(value)}₫`}
                                                 tipProps={{
                                                     placement: "top",
                                                     visible: true

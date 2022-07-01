@@ -12,7 +12,7 @@ const Header = () => {
     const { user, loading } = useSelector(state => state.auth)
     const logoutHandler = () => {
         dispatch(logout())
-        alert.success('Logged out successfully.')
+        alert.success('Đăng xuất thành công.')
     }
 
     return (
@@ -50,13 +50,13 @@ const Header = () => {
                             </Link>
                             <div className="dropdown-menu" aria-labelledby="dropDownMenuButton">
                                 {user && user.role !== 'admin' ? (
-                                    <Link className="dropdown-item" to="/orders/me">Orders</Link>
+                                    <Link className="dropdown-item" to="/orders/me">Đơn đặt hàng</Link>
                                 ) : (
-                                    <Link className="dropdown-item" to="/dashboard">Dashboard</Link>
+                                    <Link className="dropdown-item" to="/dashboard">Bảng điều khiển</Link>
                                 )}
-                                <Link className="dropdown-item" to="/me">Profile</Link>
+                                <Link className="dropdown-item" to="/me">Thông tin cá nhân</Link>
                                 <Link className="dropdown-item text-danger" to="/" onClick={logoutHandler}>
-                                    Logout
+                                    Đăng xuất
                                 </Link>
                             </div>
                         </div>
