@@ -8,6 +8,10 @@ const payment = require('./routes/payment')
 const cookieParser = require('cookie-parser')
 const bodyparser = require('body-parser')
 const fileUpload = require('express-fileupload')
+const dotenv = require('dotenv')
+
+//setting up config file
+dotenv.config({ path: 'backend/config/config.env' })
 
 app.use(express.json())
 app.use(cookieParser())

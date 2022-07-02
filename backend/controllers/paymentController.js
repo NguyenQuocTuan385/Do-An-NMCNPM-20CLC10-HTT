@@ -1,10 +1,10 @@
 const catchAsyncError = require('../middlewares/catchAsyncErrors')
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY)
+const stripe = require('stripe')('sk_test_51LH2tIHdDJob937PF1YTS4pbvF7rdemauPGGbqhYUDT4ZTRUwQ0URyeQf6sfAfoUj9VOVED89cfK906yLOirnWQu000vzOF7Ep')
 
 //Process stripe payments => /api/v1/payment/process
 exports.processPayment = catchAsyncError(async (req, res, next) => {
-    const paymentIntent = await stripe.paymentIntent.create({
+    const paymentIntent = await stripe.paymentIntents.create({
         amount: req.body.amount,
         currency: 'usd',
         metadata: { integration_check: 'accept_a_payment' }
@@ -12,7 +12,7 @@ exports.processPayment = catchAsyncError(async (req, res, next) => {
 
     res.status(200).json({
         success: true,
-        client_Secret: paymentIntent.client_Secret
+        client_secret: paymentIntent.client_secret
     })
 })
 
