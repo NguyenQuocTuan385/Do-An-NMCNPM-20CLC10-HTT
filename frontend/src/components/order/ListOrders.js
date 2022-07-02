@@ -58,7 +58,7 @@ const ListOrders = () => {
             ],
             rows: []
         }
-        console.log(orders)
+
         orders.forEach(order => {
             data.rows.push({
                 id: order._id,
