@@ -128,10 +128,10 @@ const Home = ({ match }) => {
                                 itemsCountPerPage={resPerPage}
                                 totalItemsCount={productsCount}
                                 onChange={setCurrentPageNo}
-                                nextPageText={'Next'}
-                                prevPageText={'Prev'}
-                                firstPageText={'First'}
-                                lastPageText={'Last'}
+                                nextPageText={'Kế tiếp'}
+                                prevPageText={'Trước'}
+                                firstPageText={'Đầu'}
+                                lastPageText={'Cuối'}
                                 itemClass="page-item"
                                 linkClass="page-link"
                             />

@@ -5,10 +5,12 @@ import CheckoutSteps from './CheckoutSteps'
 
 import { useAlert } from 'react-alert'
 import { useDispatch, useSelector } from 'react-redux'
-import { saveShippingInfo } from '../../actions/cartActions'
+import { createOrder, clearErrors } from '../../actions/orderActions'
 
 import { useStripe, useElements, CardNumberElement, CardExpiryElement, CardCvcElement } from '@stripe/react-stripe-js'
 import axios from 'axios'
+import { formatMoney } from '../product/Product'
+
 const options = {
     style: {
         base: {
@@ -27,12 +29,27 @@ const Payment = ({ history }) => {
 
     const { user } = useSelector(state => state.auth)
     const { cartItems, shippingInfo } = useSelector(state => state.cart)
+    const { error } = useSelector(state => state.newOrder)
 
     useEffect(() => {
+        if (error) {
+            alert.error(error)
+            dispatch(clearErrors())
+        }
+    }, [dispatch, alert, error])
 
-    }, [])
+    const order = {
+        orderItems: cartItems,
+        shippingInfo
+    }
 
     const orderInfo = JSON.parse(sessionStorage.getItem('orderInfo'))
+    if (orderInfo) {
+        order.itemsPrice = orderInfo.itemsPrice
+        order.shippingPrice = orderInfo.shippingPrice
+        order.taxPrice = orderInfo.taxPrice
+        order.totalPrice = orderInfo.totalPrice
+    }
 
     const paymentData = {
         amount: Math.round(orderInfo.totalPrice * 100)
@@ -76,10 +93,16 @@ const Payment = ({ history }) => {
             } else {
                 //The payment is processed or not
                 if (result.paymentIntent.status === 'succeeded') {
-                    // TODO: New Order
+
+                    order.paymentInfo = {
+                        id: result.paymentIntent.id,
+                        status: result.paymentIntent.status
+                    }
+
+                    dispatch(createOrder(order))
                     history.push('/success')
                 } else {
-                    alert.error('There is some issue while payment processing')
+                    alert.error('Có lỗi gì đó trong quá trình thnah toán')
                 }
             }
         } catch (error) {
@@ -96,9 +119,9 @@ const Payment = ({ history }) => {
             <div className="row wrapper">
                 <div className="col-10 col-lg-5">
                     <form className="shadow-lg" onSubmit={submitHandler}>
-                        <h1 className="mb-4">Card Info</h1>
+                        <h1 className="mb-4">Thông tin thẻ thanh toán</h1>
                         <div className="form-group">
-                            <label htmlFor="card_num_field">Card Number</label>
+                            <label htmlFor="card_num_field">Số thẻ</label>
                             <CardNumberElement
                                 type="text"
                                 id="card_num_field"
@@ -108,7 +131,7 @@ const Payment = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="card_exp_field">Card Expiry</label>
+                            <label htmlFor="card_exp_field">Ngày hết hạn</label>
                             <CardExpiryElement
                                 type="text"
                                 id="card_exp_field"
@@ -118,7 +141,7 @@ const Payment = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="card_cvc_field">Card CVC</label>
+                            <label htmlFor="card_cvc_field">CVC Thẻ</label>
                             <CardCvcElement
                                 type="text"
                                 id="card_cvc_field"
@@ -133,7 +156,7 @@ const Payment = ({ history }) => {
                             type="submit"
                             className="btn btn-block py-3"
                         >
-                            Pay {` - ${orderInfo && orderInfo.totalPrice}`}
+                            Thanh toán {` - ${orderInfo && formatMoney(orderInfo.totalPrice)}₫`}
                         </button>
 
                     </form>
