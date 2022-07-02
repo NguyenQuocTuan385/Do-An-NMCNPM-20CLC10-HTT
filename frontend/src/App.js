@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
@@ -17,12 +17,23 @@ import { ForgotPassword } from './components/user/ForgotPassword'
 import { NewPassword } from './components/user/NewPassword'
 import Shipping from './components/cart/Shipping';
 import ConfirmOrder from './components/cart/ConfirmOrder';
+import axios from 'axios';
 
 function App() {
+  const [stripeApiKey, setStripeApiKey] = useState('')
 
   useEffect(() => {
     store.dispatch(loadUser())
+
+    async function getStripApiKey() {
+      const { data } = await axios.get('/api/v1/stripeapi')
+      setStripeApiKey(data.stripeApiKey)
+    }
+
+    getStripApiKey()
   }, [])
+
+
   return (
     <Router>
       <div className="App">
