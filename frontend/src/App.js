@@ -18,7 +18,11 @@ import { NewPassword } from './components/user/NewPassword'
 import Shipping from './components/cart/Shipping';
 import ConfirmOrder from './components/cart/ConfirmOrder';
 import axios from 'axios';
+import Payment from './components/cart/Payment';
 
+//Payment
+import { Elements } from '@stripe/react-stripe-js'
+import { loadStripe } from '@stripe/stripe-js'
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState('')
 
@@ -45,6 +49,11 @@ function App() {
           <Route path="/cart" component={Cart} exact />
           <ProtectedRoute path="/shipping" component={Shipping} exact />
           <ProtectedRoute path="/order/confirm" component={ConfirmOrder} exact />
+          {stripeApiKey &&
+            <Elements stripe={loadStripe(stripeApiKey)}>
+              <ProtectedRoute path="/payment" component={Payment} exact />
+            </Elements>
+          }
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
           <Route path="/password/forgot" component={ForgotPassword} exact />

@@ -21,7 +21,7 @@ const Register = ({ history }) => {
     useEffect(() => {
         if (isAuthenticated) {
             history.push('/')
-            alert.success('Đăng ký thành công.')
+
         }
         if (error) {
             alert.error(error)

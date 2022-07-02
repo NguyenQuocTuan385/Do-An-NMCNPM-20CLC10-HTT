@@ -19,7 +19,6 @@ const Login = ({ history, location }) => {
     useEffect(() => {
         if (isAuthenticated) {
             history.push(redirect)
-            alert.success('Đăng nhập thành công.')
         }
         if (error) {
             alert.error(error)
