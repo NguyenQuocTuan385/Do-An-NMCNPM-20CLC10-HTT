@@ -22,7 +22,7 @@ const Header = () => {
                 <div className="col-12 col-md-3">
                     <div className="navbar-brand">
                         <Link to="/">
-                            <img src="/images/zonebook_logo.png" width='100px' height='100px' />
+                            <img src="/images/zonebook_logo.png" width='150px' height='100px' />
                         </Link>
                     </div>
                 </div>
@@ -50,11 +50,10 @@ const Header = () => {
                                 <span>{user && user.name}</span>
                             </Link>
                             <div className="dropdown-menu" aria-labelledby="dropDownMenuButton">
-                                {user && user.role !== 'admin' ? (
-                                    <Link className="dropdown-item" to="/orders/me">Đơn đặt hàng</Link>
-                                ) : (
+                                {user && user.role === 'admin' && (
                                     <Link className="dropdown-item" to="/dashboard">Bảng điều khiển</Link>
                                 )}
+                                <Link className="dropdown-item" to="/orders/me">Đơn đặt hàng</Link>
                                 <Link className="dropdown-item" to="/me">Thông tin cá nhân</Link>
                                 <Link className="dropdown-item text-danger" to="/" onClick={logoutHandler}>
                                     Đăng xuất
