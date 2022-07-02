@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { addItemToCart, removeItemFromCart } from '../../actions/cartActions'
 import { formatMoney } from '../product/Product'
 
-const Cart = () => {
+const Cart = ({ history }) => {
     const dispatch = useDispatch()
     const { cartItems } = useSelector(state => state.cart)
 
@@ -29,6 +29,9 @@ const Cart = () => {
             return
         }
         dispatch(addItemToCart(id, newQty))
+    }
+    const checkoutHandler = () => {
+        history.push('/login?redirect=shipping')
     }
 
     return (
@@ -94,7 +97,8 @@ const Cart = () => {
                                     {cartItems.reduce((acc, item) => formatMoney(acc + item.quantity * item.price), 0)}₫</span></p>
 
                                 <hr />
-                                <button id="checkout_btn" className="btn btn-primary btn-block">Thanh toán</button>
+                                <button id="checkout_btn" className="btn btn-primary btn-block"
+                                    onClick={checkoutHandler}>Thanh toán</button>
                             </div>
                         </div>
                     </div>
