@@ -5,7 +5,6 @@ import MetaData from '../layout/MetaData'
 import { useAlert } from 'react-alert'
 import { useDispatch, useSelector } from 'react-redux'
 import { forgotPassword, loadUser, clearErrors } from '../../actions/userActions'
-import { FORGOT_PASSWORD_RESET } from '../../constants/userConstants'
 
 export const ForgotPassword = () => {
     const [email, setEmail] = useState('')

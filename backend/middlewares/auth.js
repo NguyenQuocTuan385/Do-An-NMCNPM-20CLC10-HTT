@@ -8,7 +8,7 @@ exports.isAuthenticated = catchAsyncErrors(async (req, res, next) => {
     const { token } = req.cookies
 
     if (token === "j:null") {
-        return next(new ErrorHandler('Login first to access this resource', 401))
+        return next(new ErrorHandler('Vui lòng đăng nhập trước để truy cập tài nguyên này', 401))
     }
 
     const decoded = jwt.verify(token, "SDJFOW850FJSLDFJ4095809DFJG045FG")
@@ -27,5 +27,5 @@ exports.authorizeRoles = (...roles) => {
         }
         next()
     }
-} 
+}
 
