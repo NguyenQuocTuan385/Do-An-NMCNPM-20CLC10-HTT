@@ -196,7 +196,7 @@ const UpdateProduct = ({ match, history }) => {
                                     />
                                 </div>
                                 <div className='form-group'>
-                                    <label>Images</label>
+                                    <label>Ảnh</label>
 
                                     <div className='custom-file'>
                                         <input
@@ -208,7 +208,7 @@ const UpdateProduct = ({ match, history }) => {
                                             multiple
                                         />
                                         <label className='custom-file-label' htmlFor='customFile'>
-                                            Choose Images
+                                            Chọn ảnh
                                         </label>
                                     </div>
 
@@ -229,7 +229,7 @@ const UpdateProduct = ({ match, history }) => {
                                     className="btn btn-block py-3"
                                     disabled={loading ? true : false}
                                 >
-                                    Update
+                                    Cập nhật
                                 </button>
 
                             </form>

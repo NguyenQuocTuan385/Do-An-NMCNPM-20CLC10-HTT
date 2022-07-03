@@ -96,7 +96,7 @@ const ProductLists = ({ history }) => {
     }
     return (
         <Fragment>
-            <MetaData title={'All Products'} />
+            <MetaData title={'Tất cả sách'} />
             <div className="row">
                 <div className="col-12 col-md-2">
                     <Sidebar />
@@ -105,7 +105,7 @@ const ProductLists = ({ history }) => {
                 <div className="col-12 col-md-10">
                     <Fragment>
                         <h1 className="my-5">
-                            All Products
+                            Tất cả sách
                         </h1>
                         {loading ? <Loader /> : (
                             <MDBDataTable
