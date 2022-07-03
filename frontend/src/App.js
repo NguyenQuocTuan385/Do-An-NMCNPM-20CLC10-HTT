@@ -29,12 +29,13 @@ import { loadUser } from './actions/userActions'
 import store from './store'
 import axios from 'axios';
 
-//Payment
+//Payment 
 import { Elements } from '@stripe/react-stripe-js'
 import { loadStripe } from '@stripe/stripe-js'
 
 //Admin imports
 import Dashboard from './components/admin/Dashboard';
+import ProductLists from './components/admin/ProductLists';
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState('')
@@ -61,7 +62,7 @@ function App() {
           <Route path="/product/:id" component={ProductDetails} exact />
           <Route path="/cart" component={Cart} exact />
           <ProtectedRoute path="/shipping" component={Shipping} exact />
-          <ProtectedRoute path="/order/confirm" component={ConfirmOrder} exact />
+          <ProtectedRoute path="/orders/confirm" component={ConfirmOrder} exact />
           <ProtectedRoute path="/success" component={OrderSuccess} exact />
           {stripeApiKey &&
             <Elements stripe={loadStripe(stripeApiKey)}>
@@ -81,6 +82,7 @@ function App() {
 
         </div>
         <ProtectedRoute path="/dashboard" isAdmin={true} component={Dashboard} exact />
+        <ProtectedRoute path="/admin/products" isAdmin={true} component={ProductLists} exact />
         <Footer />
       </div>
     </Router>

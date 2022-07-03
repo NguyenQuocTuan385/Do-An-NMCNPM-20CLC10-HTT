@@ -42,7 +42,7 @@ const OrderDetails = ({ match }) => {
 
                             <h4 className="mb-4">Thông tin vận chuyển</h4>
                             <p><b>Tên:</b> {user && user.name}</p>
-                            <p><b>Số điện thoại:</b>098484546</p>
+                            <p><b>Số điện thoại: </b>{shippingInfo && shippingInfo.phoneNo}</p>
                             <p className="mb-4"><b>Địa chỉ: </b>{shippingDetails}</p>
                             <p><b>Tổng chi phí:</b> {formatMoney(totalPrice)}₫</p>
 
@@ -63,8 +63,8 @@ const OrderDetails = ({ match }) => {
                             <hr />
                             <div className="cart-item my-1">
                                 {orderItems && orderItems.map(item => (
-                                    <div className="row my-5">
-                                        <div key={item.product} className="col-4 col-lg-2">
+                                    <div className="row my-5" key={item.product} >
+                                        <div className="col-4 col-lg-2">
                                             <img src={item.image} alt={item.name} height="45" width="65" />
                                         </div>
 

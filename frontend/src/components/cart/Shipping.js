@@ -20,7 +20,7 @@ const Shipping = ({ history }) => {
         e.preventDefault()
 
         dispatch(saveShippingInfo({ address, city, phoneNo, postalCode, country }))
-        history.push('/order/confirm')
+        history.push('/orders/confirm')
     }
 
     return (
@@ -34,7 +34,7 @@ const Shipping = ({ history }) => {
                     <form className="shadow-lg" onSubmit={submitHandler}>
                         <h1 className="mb-4">Thông tin vận chuyển</h1>
                         <div className="form-group">
-                            <label for="address_field">Địa chỉ</label>
+                            <label htmlFor="address_field">Địa chỉ</label>
                             <input
                                 type="text"
                                 id="address_field"
@@ -46,7 +46,7 @@ const Shipping = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label for="city_field">Tỉnh</label>
+                            <label htmlFor="city_field">Tỉnh</label>
                             <input
                                 type="text"
                                 id="city_field"
@@ -70,7 +70,7 @@ const Shipping = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label for="postal_code_field">Mã bưu điện</label>
+                            <label htmlFor="postal_code_field">Mã bưu điện</label>
                             <input
                                 type="number"
                                 id="postal_code_field"
@@ -82,7 +82,7 @@ const Shipping = ({ history }) => {
                         </div>
 
                         <div className="form-group">
-                            <label for="country_field">Quốc gia</label>
+                            <label htmlFor="country_field">Quốc gia</label>
                             <select
                                 id="country_field"
                                 className="form-control"

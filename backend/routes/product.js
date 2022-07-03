@@ -8,9 +8,11 @@ const { getProducts,
     deleteProduct,
     createProductReview,
     getProductReviews,
-    deleteReview } = require('../controllers/productController')
+    deleteReview,
+    getAdminProducts } = require('../controllers/productController')
 
 router.route('/products').get(getProducts)
+router.route('/admin/products').get(getAdminProducts)
 router.route('/admin/product/new').post(isAuthenticated, authorizeRoles('admin'), newProduct)
 router.route('/product/:id').get(getSingleProduct)
 router.route('/admin/product/:id').put(isAuthenticated, authorizeRoles('admin'), updateProduct)

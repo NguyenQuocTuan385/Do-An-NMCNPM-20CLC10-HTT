@@ -13,7 +13,7 @@ const OrderSuccess = () => {
 
                     <h2>Đơn hàng của bạn đã thanh toán thành công.</h2>
 
-                    <Link to="/order">Đi tới quản lý giỏ hàng</Link>
+                    <Link to="/orders/me">Đi tới quản lý giỏ hàng</Link>
                 </div>
 
             </div>
