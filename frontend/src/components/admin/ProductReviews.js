@@ -6,9 +6,9 @@ import Loader from '../layout/Loader'
 
 import { useAlert } from 'react-alert'
 import { useDispatch, useSelector } from 'react-redux'
-import { clearErrors, getProductReviews } from '../../actions/productActions'
+import { clearErrors, getProductReviews, deleteReview } from '../../actions/productActions'
 import Sidebar from './Sidebar'
-//import { DELETE_REVIEW_RESET } from '../../constants/productConstants'
+import { DELETE_REVIEW_RESET } from '../../constants/productConstants'
 
 const ProductReviews = () => {
 
@@ -18,6 +18,7 @@ const ProductReviews = () => {
     const dispatch = useDispatch()
 
     const { loading, error, reviews } = useSelector(state => state.productReviews)
+    const { isDeleted } = useSelector(state => state.review)
 
 
     useEffect(() => {
@@ -27,21 +28,20 @@ const ProductReviews = () => {
             dispatch(clearErrors())
         }
 
-        // if (isDeleted) {
-        //     alert.success('Xóa tài khoản thành công')
-        //     history.push('/admin/users')
-        //     dispatch({ type: DELETE_USER_RESET })
-        // }
+        if (isDeleted) {
+            alert.success('Xóa bài đánh giá thành công')
+            dispatch({ type: DELETE_REVIEW_RESET })
+        }
 
         if (productId !== '') {
             dispatch(getProductReviews(productId))
         }
 
-    }, [dispatch, alert, error, productId])
+    }, [dispatch, alert, error, productId, isDeleted])
 
-    // const deleteUserHandler = (id) => {
-    //     dispatch(deleteUser(id))
-    // }
+    const deleteReviewHandler = (id) => {
+        dispatch(deleteReview(id, productId))
+    }
 
     const submitHandler = (e) => {
         e.preventDefault()
@@ -87,7 +87,8 @@ const ProductReviews = () => {
                 user: review.user,
 
                 actions:
-                    <button className="btn btn-danger py-1 px-2 ml-2" >
+                    <button className="btn btn-danger py-1 px-2 ml-2" onClick={() =>
+                        deleteReviewHandler(review._id)} >
                         <i className="fa fa-trash"></i>
                     </button>
 
