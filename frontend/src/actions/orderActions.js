@@ -9,11 +9,15 @@ import {
     ALL_ORDERS_REQUEST,
     ALL_ORDERS_SUCCESS,
     ALL_ORDERS_FAIL,
+    UPDATE_ORDER_REQUEST,
+    UPDATE_ORDER_SUCCESS,
+    UPDATE_ORDER_FAIL,
     ORDER_DETALS_REQUEST,
     ORDER_DETALS_SUCCESS,
     ORDER_DETALS_FAIL,
     CLEAR_ERRORS
 } from '../constants/orderConstants'
+import { convertFormDataToJson } from "./userActions";
 
 export const createOrder = (order) => async (dispatch, getState) => {
     try {
@@ -36,6 +40,33 @@ export const createOrder = (order) => async (dispatch, getState) => {
     } catch (error) {
         dispatch({
             type: CREATE_ORDER_FAIL,
+            payload: error.response.data.message
+        })
+    }
+}
+
+
+export const updateOrder = (id, orderData) => async (dispatch, getState) => {
+    try {
+        dispatch({
+            type: UPDATE_ORDER_REQUEST
+        })
+
+        const config = {
+            headers: {
+                'Content-type': 'application/json'
+            }
+        }
+
+        const { data } = await axios.put(`/api/v1/admin/order/${id}`, convertFormDataToJson(orderData), config)
+
+        dispatch({
+            type: UPDATE_ORDER_SUCCESS,
+            payload: data.success
+        })
+    } catch (error) {
+        dispatch({
+            type: UPDATE_ORDER_FAIL,
             payload: error.response.data.message
         })
     }
