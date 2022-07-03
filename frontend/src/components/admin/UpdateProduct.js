@@ -64,7 +64,7 @@ const UpdateProduct = ({ match, history }) => {
 
         if (isUpdated) {
             history.push('/admin/products')
-            alert.success('Cap nhat sách thành công')
+            alert.success('Cập nhật sách thành công')
             dispatch({ type: UPDATE_PRODUCT_RESET })
         }
 

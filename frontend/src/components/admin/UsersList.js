@@ -10,7 +10,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { clearErrors, allUsers } from '../../actions/userActions'
 import Sidebar from './Sidebar'
 //import { DELETE_ORDER_RESET } from '../../constants/userConstants'
-import { formatMoney } from '../product/Product'
 
 const UsersList = () => {
     const alert = useAlert()
@@ -77,7 +76,7 @@ const UsersList = () => {
                 email: user.email,
                 role: user.role,
                 actions: <Fragment>
-                    <Link to={`/admin/order/${user._id}`} className="btn btn-primary py-1 px-2">
+                    <Link to={`/admin/user/${user._id}`} className="btn btn-primary py-1 px-2">
                         <i className="fa fa-pencil"></i>
                     </Link>
                     <button className="btn btn-danger py-1 px-2 ml-2">
