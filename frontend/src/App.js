@@ -37,6 +37,8 @@ import { loadStripe } from '@stripe/stripe-js'
 import Dashboard from './components/admin/Dashboard';
 import ProductLists from './components/admin/ProductLists';
 import NewProduct from './components/admin/NewProduct';
+import UpdateProduct from './components/admin/UpdateProduct';
+import { updateProduct } from './actions/productActions';
 
 function App() {
   const [stripeApiKey, setStripeApiKey] = useState('')
@@ -85,6 +87,7 @@ function App() {
         <ProtectedRoute path="/dashboard" isAdmin={true} component={Dashboard} exact />
         <ProtectedRoute path="/admin/products" isAdmin={true} component={ProductLists} exact />
         <ProtectedRoute path="/admin/product" isAdmin={true} component={NewProduct} exact />
+        <ProtectedRoute path="/admin/product/:id" isAdmin={true} component={UpdateProduct} exact />
 
         <Footer />
       </div>

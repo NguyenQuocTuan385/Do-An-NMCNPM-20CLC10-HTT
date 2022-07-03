@@ -79,7 +79,7 @@ const ProductLists = ({ history }) => {
                 price: `${formatMoney(product.price)}₫`,
                 stock: product.stock,
                 actions: <Fragment>
-                    <Link to={`/admin/products/${product._id}`} className="btn btn-primary py-1 px-2">
+                    <Link to={`/admin/product/${product._id}`} className="btn btn-primary py-1 px-2">
                         <i className="fa fa-pencil"></i>
                     </Link>
                     <button className="btn btn-danger py-1 px-2 ml-2" onClick={() => deleteProductHandler(product._id)}>
