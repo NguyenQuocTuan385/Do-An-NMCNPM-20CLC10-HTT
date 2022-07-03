@@ -27,7 +27,7 @@ import {
     CLEAR_ERRORS
 } from '../constants/userConstants'
 
-function convertFormDataToJson(formData) {
+export const convertFormDataToJson = (formData) => {
     const object = {};
     formData.forEach((value, key) => object[key] = value);
     const json = JSON.stringify(object);

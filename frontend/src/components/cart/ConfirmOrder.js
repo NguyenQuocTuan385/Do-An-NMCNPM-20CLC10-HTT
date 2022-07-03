@@ -49,7 +49,7 @@ const ConfirmOrder = ({ history }) => {
                             <div className="cart-item my-1" key={item.product}>
                                 <div className="row">
                                     <div className="col-4 col-lg-2">
-                                        <img src={item.image} alt="Laptop" height="45" width="65" />
+                                        <img src={item.image} alt={item.name} height="45" width="65" />
                                     </div>
 
                                     <div className="col-5 col-lg-6">
