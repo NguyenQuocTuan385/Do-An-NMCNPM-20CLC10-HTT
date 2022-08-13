@@ -141,7 +141,12 @@ const UpdateProduct = ({ match, history }) => {
                                         id="price_field"
                                         className="form-control"
                                         value={price}
-                                        onChange={(e) => setPrice(e.target.value)}
+                                        onChange={(e) => {
+                                            if (e.target.value < 0)
+                                                setPrice(-e.target.value)
+                                            else
+                                                setPrice(e.target.value)
+                                        }}
                                     />
                                 </div>
 
@@ -170,7 +175,12 @@ const UpdateProduct = ({ match, history }) => {
                                         id="stock_field"
                                         className="form-control"
                                         value={stock}
-                                        onChange={(e) => setStock(e.target.value)}
+                                        onChange={(e) => {
+                                            if (e.target.value < 0)
+                                                setStock(-e.target.value)
+                                            else
+                                                setStock(e.target.value)
+                                        }}
                                     />
                                 </div>
 
